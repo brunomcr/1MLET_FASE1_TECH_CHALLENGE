@@ -19,8 +19,12 @@ arquivos = []
 for match in re.findall(r'href="(.*?.csv)', html):
     arquivos.append(match)
 
-# Baixar os arquivos CSV
+# Diretorio para arquivos CSV, se nao existir cria um.
 arquivos_csv = 'arquivos_csv/'
+if not os.path.exists(arquivos_csv):
+    os.mkdir(arquivos_csv)
+
+# Baixar os arquivos CSV
 print('\n*** INICIANDO DOWNLOAD DOS ARQUIVOS ***\n')
 print('ARQUIVOS: \n')
 
