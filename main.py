@@ -2,7 +2,12 @@ import os
 import requests
 import re
 
-os.system('clear') # Se estiver utilizando Windows👀 altere DE: 'clear' PARA: 'cls'
+
+# Limpa o terminal
+if os.name == 'nt':
+    os.system('cls')
+else:
+    os.system('clear')
 
 # Obter os nomes dos arquivos CSV
 url = "http://vitibrasil.cnpuv.embrapa.br/download/"
