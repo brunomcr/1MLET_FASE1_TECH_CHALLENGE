@@ -2,40 +2,39 @@ import os
 import requests
 import re
 
-
-# Limpa o terminal
+# Clear the terminal / Limpa o terminal
 if os.name == 'nt':
     os.system('cls')
 else:
     os.system('clear')
 
-# Obter os nomes dos arquivos CSV
+# Fetch CSV file names / Obter os nomes dos arquivos CSV
 url = "http://vitibrasil.cnpuv.embrapa.br/download/"
 response = requests.get(url)
 html = response.content.decode()
 
-# Extrair os nomes dos arquivos CSV
-arquivos = []
+# Extract CSV file names / Extrair os nomes dos arquivos CSV
+csv_files = []
 for match in re.findall(r'href="(.*?.csv)', html):
-    arquivos.append(match)
+    csv_files.append(match)
 
-# Diretorio para arquivos CSV, se nao existir cria um.
-arquivos_csv = 'arquivos_csv/'
-if not os.path.exists(arquivos_csv):
-    os.mkdir(arquivos_csv)
+# Directory for CSV files, create if it does not exist. / Diretório para arquivos CSV, se não existir, cria um.
+csv_files_dir = 'csv_files/'
+if not os.path.exists(csv_files_dir):
+    os.mkdir(csv_files_dir)
 
-# Baixar os arquivos CSV
-print('\n*** INICIANDO DOWNLOAD DOS ARQUIVOS ***\n')
-print('ARQUIVOS: \n')
+# Download CSV files / Baixar os arquivos CSV
+print('\n*** STARTING DOWNLOAD OF FILES ***\n')
+print('FILES: \n')
 
-for item in arquivos:
+for item in csv_files:
     file_url = url + item
     response = requests.get(file_url)
-    with open(arquivos_csv+item, "wb") as f:
+    with open(csv_files_dir + item, "wb") as f:
         f.write(response.content)
 
-    print(f'{item} baixado!')
+    print(f'{item} downloaded!')
 
-# Listando os arquivos criado
-total_arquivos = len(os.listdir(arquivos_csv))
-print (f'Todos os {total_arquivos} arquivos foram baixados! 👍 \n')
+# List created files / Listando os arquivos criados
+total_files = len(os.listdir(csv_files_dir))
+print(f'All {total_files} files have been downloaded! 👍 \n')
