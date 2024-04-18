@@ -31,3 +31,9 @@ Ingles:
 * #### It is recommended (but not mandatory) to choose an authentication method (JWT, for example).
 * #### Create a plan for deploying the API, designing the project architecture from ingestion to feeding the model (it is not necessary to develop an ML model here, but you need to choose an interesting scenario in which the API can be used).
 * #### Make an MVP by deploying it with a shareable link and a GitHub repository.
+
+<hr>
+
+## Solution Architecture Diagram
+
+![[]](https://github.com/brunomcr/1MLET_FASE1_TECH_CHALLENGE/blob/5-desenho-da-arquitetura-da-api/1MLET_FASE1_TECH_CHALLENGE.drawio.png)
