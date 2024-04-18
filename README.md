@@ -1,4 +1,4 @@
-# 1MLET_FASE1_TECH_CHALLANGE
+# 1MLET_FASE1_TECH_CHALLENGE
 
 Grupo 43:
 Bruno
@@ -8,7 +8,6 @@ Alberto
 Daniela
 
 <hr>
-Portugues
 
 ## Requisitos:
 
@@ -20,8 +19,6 @@ Portugues
 * #### Fazer um MVP realizando o deploy com um link compartilhável e um repositório no github.
 
 <hr>
-
-Ingles:
 
 ## Requirements
 
