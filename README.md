@@ -50,3 +50,8 @@ Comando para rodar o conteiner (Exposed)
 
 - Prod (Exposto): ` docker run -d -p 8000:8000 --name c_1mlet 1mlet`
 - Prod: ` docker run -d --name c_1mlet 1mlet`
+
+# Docker-compose
+Para utilizar o docker-compose, subindo o container da aplicação e o banco:
+
+`docker-compose up -d`
