@@ -34,3 +34,8 @@ Daniela
 ## Solution Architecture Diagram
 
 ![[]](https://github.com/brunomcr/1MLET_FASE1_TECH_CHALLENGE/blob/5-desenho-da-arquitetura-da-api/1MLET_FASE1_TECH_CHALLENGE.drawio.png)
+
+
+* UML 
+
+![uml.drawio.png](assets%2Fimages%2Fuml.drawio.png)
