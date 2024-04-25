@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T22:56:45.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="iPmbb_Hm2sQAi_aGX_i2" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T23:13:47.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3mXXHrHAJGCvVRAShZYt" version="24.2.5" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1269" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="493" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="7baba1c4bc27f4b0-4" value="Embrapa Website" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="340" y="40" width="100" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-3" value="Return data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.97;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;" edge="1" parent="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-13">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-3" value="Return data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.97;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;" parent="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="160" as="sourcePoint" />
             <Array as="points">
@@ -28,7 +28,7 @@
             <mxPoint x="-85" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-1" value="Return JWT Token" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=1 1;" edge="1" parent="7baba1c4bc27f4b0-4" target="3TS8Lj0KL39nGimkemYy-11">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-1" value="Return JWT Token" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=1 1;" parent="7baba1c4bc27f4b0-4" target="3TS8Lj0KL39nGimkemYy-11" edge="1">
           <mxGeometry x="0.0015" relative="1" as="geometry">
             <mxPoint x="189.83000000000027" y="360" as="sourcePoint" />
             <mxPoint x="-390.00333333333344" y="360" as="targetPoint" />
@@ -47,7 +47,7 @@
         <mxCell id="7baba1c4bc27f4b0-7" value="ML Model" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="785" y="40" width="100" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-8" value="Send Data for Analysis" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="7baba1c4bc27f4b0-7" source="3TS8Lj0KL39nGimkemYy-11">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-8" value="Send Data for Analysis" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="7baba1c4bc27f4b0-7" source="3TS8Lj0KL39nGimkemYy-11" edge="1">
           <mxGeometry x="0.0242" relative="1" as="geometry">
             <mxPoint x="189.49999999999955" y="640" as="sourcePoint" />
             <Array as="points">
@@ -57,8 +57,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-9" value="Return Analysis Result" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.51;entryY=0.74;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;" edge="1" parent="7baba1c4bc27f4b0-7" target="3TS8Lj0KL39nGimkemYy-11">
-          <mxGeometry x="-0.433" relative="1" as="geometry">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-9" value="Return Analysis Result" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=1 1;" parent="7baba1c4bc27f4b0-7" target="3TS8Lj0KL39nGimkemYy-11" edge="1">
+          <mxGeometry x="-0.0242" relative="1" as="geometry">
             <mxPoint x="49.25" y="680" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="120" y="680" />
@@ -76,7 +76,7 @@
             <mxPoint x="385" y="159.99999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-5" value="Retrieve Stored Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-6">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-5" value="Retrieve Stored Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-6" edge="1">
           <mxGeometry x="0.2554" relative="1" as="geometry">
             <mxPoint x="250" y="490" as="sourcePoint" />
             <Array as="points">
@@ -86,7 +86,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-6" value="Return Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="7baba1c4bc27f4b0-6" target="7baba1c4bc27f4b0-2">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-6" value="Return Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=1 1;" parent="1" source="7baba1c4bc27f4b0-6" target="7baba1c4bc27f4b0-2" edge="1">
           <mxGeometry x="-0.2629" relative="1" as="geometry">
             <mxPoint x="375" y="560" as="sourcePoint" />
             <Array as="points">
@@ -96,7 +96,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-7" value="Request Data with JWT" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="3TS8Lj0KL39nGimkemYy-11" target="7baba1c4bc27f4b0-2">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-7" value="Request Data with JWT" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="3TS8Lj0KL39nGimkemYy-11" target="7baba1c4bc27f4b0-2" edge="1">
           <mxGeometry x="-0.8234" relative="1" as="geometry">
             <mxPoint x="949.28" y="441" as="sourcePoint" />
             <Array as="points">
@@ -106,10 +106,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-11" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-11" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="940" y="39" width="100" height="771" as="geometry" />
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-4" value="Store Scraped Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.544;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="7baba1c4bc27f4b0-13" target="7baba1c4bc27f4b0-6">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-4" value="Store Scraped Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.544;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=1 1;" parent="1" source="7baba1c4bc27f4b0-13" target="7baba1c4bc27f4b0-6" edge="1">
           <mxGeometry x="0.0022" relative="1" as="geometry">
             <mxPoint x="250" y="270" as="sourcePoint" />
             <Array as="points">
@@ -129,7 +129,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-12" value="Return Request Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="7baba1c4bc27f4b0-2" target="3TS8Lj0KL39nGimkemYy-11">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-12" value="Return Request Data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=1 1;" parent="1" source="7baba1c4bc27f4b0-2" target="3TS8Lj0KL39nGimkemYy-11" edge="1">
           <mxGeometry x="0.8234" relative="1" as="geometry">
             <mxPoint x="510" y="600" as="sourcePoint" />
             <Array as="points">
@@ -139,7 +139,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TS8Lj0KL39nGimkemYy-2" value="Initiate on API Start" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-3">
+        <mxCell id="3TS8Lj0KL39nGimkemYy-2" value="Initiate on API Start" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-3" edge="1">
           <mxGeometry x="-0.0767" relative="1" as="geometry">
             <mxPoint x="94.75" y="120" as="sourcePoint" />
             <mxPoint x="190" y="140" as="targetPoint" />
