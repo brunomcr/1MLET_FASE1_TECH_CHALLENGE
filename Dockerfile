@@ -14,6 +14,3 @@ COPY . /app
 
 # Configure port to be exposed to the network
 EXPOSE 8000
-
-# Command to run python
-CMD ["uvicorn", "api_server:app", "--host", "0.0.0.0", "--port", "8000"]
