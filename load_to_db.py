@@ -1,9 +1,9 @@
 import pandas as pd
-from db_connection import connect_to_db
+from db_connection import connect_to_docker_db
 import os
 
 # Connect to MongoDB / Conexão ao MongoDB
-db = connect_to_db('1mlet_embrapa')
+db = connect_to_docker_db('1mlet_embrapa2')
 
 # Directory that contains the CSV files / Diretório que contém os arquivos CSV
 csv_directory = 'csv_files'
