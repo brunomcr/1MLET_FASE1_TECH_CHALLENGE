@@ -27,7 +27,7 @@ def connect_to_docker_db(db_name):
     print(f"Mongo Pass: {mongo_pass}")
 
     # Gera uri para conexao
-    uri = f"mongodb://{mongo_user}:{mongo_pass}@mongo-db:27017/"
+    uri = f"mongodb://{mongo_user}:{mongo_pass}@1mongo-db:27017/"
     print(f"uri: {uri}")
 
     # tenta conecatar no banco
