@@ -7,8 +7,8 @@ It provides a programmatic way to access data from the Embrapa website amd allow
 
 ## Project Requirements
 
-* #### Creating a REST API in Python that queries the Embrapa website.
-* #### Your API must be documented.
+* #### Create a REST API in Python that queries the Embrapa website.
+* #### The API must be documented.
 * #### It is recommended (but not mandatory) to choose an authentication method (JWT, for example).
 * #### Create a plan for deploying the API, designing the project architecture from ingestion to feeding the model (it is not necessary to develop an ML model here, but you need to choose an interesting scenario in which the API can be used).
 * #### Make an MVP by deploying it with a shareable link and a GitHub repository.
