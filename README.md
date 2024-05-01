@@ -36,6 +36,20 @@ Daniela
 ![1MLET_FASE1_TECH_CHALLENGE.drawio.png](assets%2Fimages%2F1MLET_FASE1_TECH_CHALLENGE.drawio.png)
 
 
-* UML 
+## Subsystem Sequence Diagram 
 
 ![uml.drawio.png](assets%2Fimages%2Fuml.drawio.png)
+
+<hr>
+
+## Docker
+
+Build:
+`$ docker build -t 1mlet .`
+
+Run:
+- Exposed port: `$docker run -d -p 8000:8000 --name c_1mlet 1mlet`
+- Non-exposed port: `$docker run -d --name c_1mlet 1mlet`
+
+Compose:
+`$docker-compose up -d`
