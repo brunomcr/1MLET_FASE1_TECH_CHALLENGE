@@ -48,8 +48,10 @@ Build:
 `$ docker build -t 1mlet .`
 
 Run:
-- Exposed port: `$docker run -d -p 8000:8000 --name c_1mlet 1mlet`
-- Non-exposed port: `$docker run -d --name c_1mlet 1mlet`
+- With port exposed
+`$docker run -d -p 8000:8000 --name c_1mlet 1mlet`
+- Without port exposed
+`$docker run -d --name c_1mlet 1mlet`
 
-Compose:
-`$docker-compose up -d`
+Compose (includes database integration):
+`$ docker-compose up -d`
