@@ -22,9 +22,6 @@ def filter_data_by_year(data, year):
     return [item for item in data if int(item.get('Ano', 0)) == year]
 
 
-
-
-
 opcoes_processamento = {
     "1": "ProcessaViniferas.json", ## Viniferas 
     "2": "ProcessaAmericanas.json", ## Americanas e Hibridas 
@@ -54,7 +51,7 @@ async def root():
 
 @app.get("/producao")
 async def get_data_producao(Ano: int = Query(None, description="Ano: [1970-2022]")):
-    '''Comentario sobre o endpoint.......'''
+    '''Dados sobre a produção de vinhos, sucos e derivados do Rio Grande do Sul'''
     data = read_json(dir_json+'producao.json')
     if Ano is not None:
         data = filter_data_by_year(data, Ano)
@@ -63,12 +60,12 @@ async def get_data_producao(Ano: int = Query(None, description="Ano: [1970-2022]
 
 @app.get("/processamento")
 async def get_processamento(Produto: str = Query(..., description='''Escolha uma das opções abaixo: \n
-            1) Viniferas 
-            2) Americanas e Hibridas 
-            3) Uvas de Mesa 
-            4) Sem Classificação'''),
+    1) Viniferas 
+    2) Americanas e Hibridas 
+    3) Uvas de Mesa 
+    4) Sem Classificação'''),
              Ano: int = Query(None, description="Ano: [1970-2022]")):
-    '''Comentario sobre o endpoint.......'''
+    '''Dados sobre a quantidade de uvas Processadas no Rio Grande do Sul'''
     file_name = opcoes_processamento.get((Produto.lower()))
     if not file_name:
         raise HTTPException(status_code=400, detail="Opção Inválida")
@@ -83,7 +80,7 @@ async def get_processamento(Produto: str = Query(..., description='''Escolha uma
 
 @app.get("/comercio")
 async def get_data_comercio(Ano: int = Query(None, description="Ano: [1970-2022]")):
-    '''Comentario sobre o endpoint.......'''
+    '''Dados sobre a comercialização de vinhos e derivados no Rio Grande do Sul'''
     data = read_json(dir_json+'Comercio.json')
     if Ano is not None:
         data = filter_data_by_year(data, Ano)
@@ -92,13 +89,13 @@ async def get_data_comercio(Ano: int = Query(None, description="Ano: [1970-2022]
 
 @app.get("/importacao")
 async def get_importacao(Produto: str = Query(..., description='''Escolha uma das opções abaixo: \n
-            1) Vinhos de Mesa
-            2) Espumantes
-            3) Uvas Frescas
-            4) Uvas Passas
-            5) Suco de Uva'''),
+    1) Vinhos de Mesa
+    2) Espumantes
+    3) Uvas Frescas
+    4) Uvas Passas
+    5) Suco de Uva'''),
              Ano: int = Query(None, description="Ano: [1970-2022]")):
-    '''Comentario sobre o endpoint.......'''
+    '''Dados sobre a importação de derivados de uva'''
     file_name = opcoes_importacao.get((Produto.lower()))
     if not file_name:
         raise HTTPException(status_code=400, detail="Opção Inválida")
@@ -112,13 +109,14 @@ async def get_importacao(Produto: str = Query(..., description='''Escolha uma da
 
 
 @app.get("/exportacao")
-async def get_exportacao(Produto: str = Query(..., description='''Escolha uma das opções abaixo: \n
-            1) Vinhos de mesa
-            2) Espumantes
-            3) Uvas frescas
-            4) Suco de uva'''),
+async def get_exportacao(Produto: str = Query(..., description=
+        '''Escolha uma das opções abaixo: \n
+    1) Vinhos de mesa
+    2) Espumantes
+    3) Uvas frescas
+    4) Suco de uva'''),
              Ano: int = Query(None, description="Ano: [1970-2022]")):
-    '''Comentario sobre o endpoint.......'''
+    '''Dados sobre a exportação de derivados de uva'''
     file_name = opcoes_exportacao.get((Produto.lower()))
     if not file_name:
         raise HTTPException(status_code=400, detail="Opção Inválida")
@@ -130,4 +128,4 @@ async def get_exportacao(Produto: str = Query(..., description='''Escolha uma da
 
     return data
 
-
+    
