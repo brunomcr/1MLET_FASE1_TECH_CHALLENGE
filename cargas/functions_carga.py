@@ -13,6 +13,16 @@ if not os.path.exists(json_files_dir):
 
 
 def get_data(opt, subopt, file_name, start_year, end_year):
+    """
+    Extrai dados da Embrapa nas opções e subopções especificadas, e salva os dados em formato JSON.
+
+    Args:
+        opt (str): Opção principal de filtragem de dados.
+        subopt (str): Subopção de filtragem de dados, que complementa a opção principal.
+        file_name (str): Nome do arquivo onde os dados processados serão salvos.
+        start_year (int): Ano inicial do intervalo para extração de dados.
+        end_year (int): Ano final do intervalo para extração de dados.
+    """
     if opt == 'opt_05' and subopt in ('subopt_01', 'subopt_02', 'subopt_03', 'subopt_04', 'subopt_05') \
     or opt == 'opt_06' and subopt in ('subopt_01', 'subopt_02', 'subopt_03', 'subopt_04'): 
         opt_subopt_files = {
