@@ -1,9 +1,11 @@
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functions_carga import get_data
 
+# Global variables to define start and end dates
 _START_DATE = 1970
 _LAST_DATE = 2024
 
+# Tasks to be performed by page (option), subpage (suboption), and filename
 tasks = [
     ('opt_02', None, 'Producao.json'),
     ('opt_03', 'subopt_01', 'ProcessaViniferas.json'),
@@ -19,22 +21,28 @@ tasks = [
     ('opt_06', 'subopt_01', 'ExpVinho.json'),
     ('opt_06', 'subopt_02', 'ExpEspumantes.json'),
     ('opt_06', 'subopt_04', 'ExpSuco.json'),
-    ('opt_06', 'subopt_03', 'ExpUva.json')    
+    ('opt_06', 'subopt_03', 'ExpUva.json')
 ]
 
+
+# Function to execute the get_data function from the functions_carga module for each task
 def execute_get_data(option, suboption, filename):
     return get_data(option, suboption, filename, _START_DATE, _LAST_DATE)
 
 
+# Using ThreadPoolExecutor to perform the execution in parallel
 with ThreadPoolExecutor() as executor:
+    # Create a mapping of future tasks to their corresponding task details
     future_to_task = {executor.submit(execute_get_data, *task): task for task in tasks}
 
+    # Iterate over completed tasks as they finish and handle exceptions
     for future in as_completed(future_to_task):
         task = future_to_task[future]
         try:
-            data = future.result()
-        except Exception as exc:
+            data = future.result()  # Attempt to get the result of the future task
+        except Exception as exc:  # Catch and handle exceptions
             print(f"Task {task} generated an exception: {exc}")
+
 
 
 
