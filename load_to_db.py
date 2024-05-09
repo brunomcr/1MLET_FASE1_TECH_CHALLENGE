@@ -1,7 +1,6 @@
-import pandas as pd
 from db_connection import connect_to_local_db, connect_to_docker_db
 import os
-import json  # Import necessário para lidar com arquivos JSON
+import json
 
 
 # Connect to MongoDB / Conexão ao MongoDB
