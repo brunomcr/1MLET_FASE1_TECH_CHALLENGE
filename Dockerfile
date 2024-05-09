@@ -11,6 +11,3 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the entire current directory to the WORKDIR directory
 COPY . /app
-
-# Configure port to be exposed to the network
-EXPOSE 8000
