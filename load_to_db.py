@@ -1,21 +1,24 @@
 import pandas as pd
-from db_connection import connect_to_docker_db
+from db_connection import connect_to_local_db, connect_to_docker_db
 import os
+import json  # Import necessário para lidar com arquivos JSON
+
 
 # Connect to MongoDB / Conexão ao MongoDB
-db = connect_to_docker_db('1mlet_embrapa2')
+db = connect_to_local_db('1mlet_embrapa')
 
-# Directory that contains the CSV files / Diretório que contém os arquivos CSV
-csv_directory = 'csv_files'
+# Directory that contains the JSON files / Diretório que contém os arquivos JSON
+json_directory = 'cargas/json_files'
 
-# List of CSV files / Lista de arquivos CSV
-csv_files = [f for f in os.listdir(csv_directory) if f.endswith('.csv')]
+# List of JSON files / Lista de arquivos JSON
+json_files = [f for f in os.listdir(json_directory) if f.endswith('.json')]
 
-# Load each CSV file into a MongoDB collection
-# Carregar cada arquivo CSV para uma coleção no MongoDB
-for file in csv_files:
+# Load each JSON file into a MongoDB collection
+for file in json_files:
     collection_name = file.split('.')[0]  # Collection name based on the file name
-    df = pd.read_csv(os.path.join(csv_directory, file), sep=';')
-    db[collection_name].insert_many(df.to_dict('records'))
+    # Load JSON file specifying the encoding
+    with open(os.path.join(json_directory, file), 'r', encoding='utf-8') as json_file:
+        data = json.load(json_file)
+    db[collection_name].insert_many(data)
 
 print("Data loaded successfully!")
