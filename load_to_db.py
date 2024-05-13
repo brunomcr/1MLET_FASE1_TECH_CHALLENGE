@@ -4,7 +4,7 @@ import json
 
 
 # Connect to MongoDB / Conexão ao MongoDB
-db = connect_to_local_db('1mlet_embrapa')
+db = connect_to_docker_db('1mlet_embrapa')
 
 # Directory that contains the JSON files / Diretório que contém os arquivos JSON
 json_directory = 'cargas/json_files'

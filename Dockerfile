@@ -1,6 +1,7 @@
 # Python 3.12 image
 FROM python:3.12-alpine
 
+
 # Create a directory in the container, where it will be used
 WORKDIR /app
 
