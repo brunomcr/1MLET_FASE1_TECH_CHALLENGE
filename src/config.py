@@ -1,6 +1,6 @@
 
 ## Path of JSON files
-DATA_DIR = '/Users/santili/Documents/fiap/api_teste_OO/res/json/'
+DATA_DIR = '/home/santili/fiap/projetos/1MLET_FASE1_TECH_CHALLENGE/res/json/'
 
 
 opt_processing = {
