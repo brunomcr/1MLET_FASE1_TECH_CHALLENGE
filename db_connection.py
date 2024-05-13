@@ -22,7 +22,7 @@ def connect_to_docker_db(db_name):
     mongo_pass = os.getenv('MONGO_INITDB_ROOT_PASSWORD')
 
     try:
-        client = MongoClient(host='mongo-db',
+        client = MongoClient(host='localhost', #mongo-db
                              port=27017,
                              username=mongo_user,
                              password=mongo_pass,
