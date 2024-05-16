@@ -28,6 +28,11 @@ jobs:
       with:
         python-version: '3.12'  # Specifies the Python version to use
 
+    - name: Create .env file
+      run: | 
+          echo "MONGO_INITDB_ROOT_USERNAME=${{ secrets.MONGO_INITDB_ROOT_USERNAME }}" >> .env
+          echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
+
     - name: Build Docker image
       run: docker-compose -f docker-compose.yml build  # Builds the Docker image using docker-compose
 
