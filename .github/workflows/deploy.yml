@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [ github-actions ]  # Executa o workflow em commits push para a branch 'main'
+  pull_request:
+    branches: [ github-actions ]  # Executa o workflow em pull requests para a branch 'main'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest  # Define a máquina virtual onde o job será executado
+    services:
+      mongo:
+        image: mongo:latest  # Utiliza a imagem mais recente do MongoDB
+        ports:
+          - 27017:27017  # Mapeia a porta padrão do MongoDB
+        options: >-
+          --health-cmd "mongo --eval 'db.runCommand({ping: 1})'"
+          --health-interval 10s
+          --health-timeout 10s
+          --health-retries 5  # Configurações para verificar se o MongoDB está saudável
+
+    steps:
+    - uses: actions/checkout@v2  # Faz checkout do código fonte do repositório
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'  # Define a versão do Python a ser utilizada
+
+    - name: Build Docker image
+      run: docker-compose -f docker-compose.yml build  # Constrói a imagem Docker utilizando o docker-compose
+
+    - name: Run Docker containers
+      run: docker-compose -f docker-compose.yml up -d  # Inicia os containers em modo detached
+
+    - name: Check running containers
+      run: docker-compose ps  # Lista os containers em execução para verificação
+
+    - name: Shutdown
+      run: docker-compose down  # Desliga os containers e limpa o ambiente ao final dos testes
