@@ -1,6 +1,6 @@
-from src.dependencies import injector
 from fastapi import FastAPI
 from src.api import production_router
+from src.dependencies import injector
 from src.domain.interfaces import DBPopulatorService
 
 print("Populating the database")

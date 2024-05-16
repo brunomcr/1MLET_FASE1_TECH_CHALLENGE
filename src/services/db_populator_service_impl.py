@@ -10,7 +10,7 @@ class DBPopulatorServiceImpl(DBPopulatorService):
         self.__db = injector.get(DatabaseHelper)
 
     def populate(self):
-        json_directory = os.path.abspath('res/json')
+        json_directory = os.path.abspath('res/json/')
 
         # Mapping files to collections and product types
         file_mapping = {

@@ -31,9 +31,9 @@ class ProductionMapper:
                 if not product:
                     raise ValueError("Product is missing")
 
-                volume = float(item.get(COL_VOLUME, 0))
-                if volume < 0:
-                    raise ValueError("Quantity must be non-negative")
+                volume = item.get(COL_VOLUME, "0")
+                if not volume:
+                    raise ValueError("Volume is missing")
 
                 production_list.append(
                     Production(year=year, group=group, product=product, volume=volume)
@@ -42,4 +42,5 @@ class ProductionMapper:
                 print(f"Error converting data: {e}")
 
         return production_list
+
 

@@ -2,7 +2,7 @@ from fastapi import HTTPException
 from json import load, JSONDecodeError
 
 
-JSON_DIR = "/Users/santili/Documents/fiap/1MLET_FASE1_TECH_CHALLENGE/res/json/"
+JSON_DIR = os.path.abspath('res/json/')
 
 
 def read_json(file_name):

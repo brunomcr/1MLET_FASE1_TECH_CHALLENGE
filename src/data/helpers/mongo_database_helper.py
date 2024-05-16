@@ -16,7 +16,7 @@ class MongoDatabaseHelper(DatabaseHelper):
         mongo_pass = os.getenv('MONGO_INITDB_ROOT_PASSWORD')
 
         try:
-            client = MongoClient(host='localhost', 
+            client = MongoClient(host='172.20.0.3', 
                                  port=27017,
                                  username=mongo_user,
                                  password=mongo_pass,

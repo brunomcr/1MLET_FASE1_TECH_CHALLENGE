@@ -4,7 +4,7 @@ class Production:
         year: str,
         group: str,
         product: str,
-        volume: float,
+        volume: str,  # volume agora é uma string
     ):
         self.year = year
         self.group = group
@@ -42,13 +42,13 @@ class Production:
         self._product = value
 
     @property
-    def volume(self) -> float:
+    def volume(self) -> str:
         return self._volume
 
     @volume.setter
-    def volume(self, value: float):
-        if value < 0:
-            raise ValueError("Quantity must be non-negative")
+    def volume(self, value: str):
+        if not value:
+            raise ValueError("Volume cannot be empty")
         self._volume = value
 
     def __repr__(self) -> str:

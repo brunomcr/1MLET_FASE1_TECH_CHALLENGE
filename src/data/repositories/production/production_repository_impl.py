@@ -15,7 +15,8 @@ class ProductionRepositoryImpl(ProductionRepository):
 
     def __init__(self, json_dir=None):
         if json_dir is None:
-            json_dir = '/home/santili/fiap/projetos/1MLET_FASE1_TECH_CHALLENGE/res/json/'
+            #json_dir = '/home/santili/fiap/projetos/1MLET_FASE1_TECH_CHALLENGE/res/json/'
+            json_dir = os.path.abspath('res/json/')
         self.json_file = os.path.join(json_dir, 'Producao.json')
         self.mapper = ProductionMapper()
         logging.info(f"JSON file path: {self.json_file}")
