@@ -1,14 +1,15 @@
+from .di import injector
+from src.data.interfaces import DatabaseHelper
 from src.domain.interfaces import DBPopulatorService
-from src.data.dependencies import get_database_connection
 import json
 import os
 
 
 class DBPopulatorServiceImpl(DBPopulatorService):
+    def __init__(self):
+        self.__db = injector.get(DatabaseHelper)
 
     def populate(self):
-        db = get_database_connection()
-
         json_directory = os.path.abspath('res/json')
 
         # Mapping files to collections and product types
@@ -39,6 +40,6 @@ class DBPopulatorServiceImpl(DBPopulatorService):
                 if product_type:
                     for entry in data:
                         entry['Produto'] = product_type
-                db[collection_name].insert_many(data)
+                self.__db.insert_many(collection_name, data)
 
         print("Data loaded successfully!")

@@ -1,12 +1,12 @@
+from src.dependencies import injector
 from fastapi import FastAPI
-from src.api.routes import production_router
-from src.services.dependencies import get_db_populator_service
+from src.api import production_router
+from src.domain.interfaces import DBPopulatorService
 
-
-db_populator_service = get_db_populator_service()
+print("Populating the database")
+db_populator_service = injector.get(DBPopulatorService)
 db_populator_service.populate()
 
-
+print("Starting the application")
 app = FastAPI()
 app.include_router(production_router)
-

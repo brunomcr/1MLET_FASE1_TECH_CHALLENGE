@@ -1,1 +1,1 @@
-from ..interfaces.connection_helper import ConnectionHelper
+from ..interfaces.database_helper import DatabaseHelper

@@ -1,10 +1,14 @@
-from pymongo import MongoClient
-import os
+from ..interfaces import DatabaseHelper
 from dotenv import load_dotenv
+from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
-from ..interfaces import ConnectionHelper
+import os
 
-class MongoConnectionHelper(ConnectionHelper):
+
+class MongoDatabaseHelper(DatabaseHelper):
+    def __init__(self):
+        self.__db_connection = self.connect('1mlet_embrapa')
+
     def connect(self, db_name):
         load_dotenv()
 
@@ -13,10 +17,10 @@ class MongoConnectionHelper(ConnectionHelper):
 
         try:
             client = MongoClient(host='localhost', 
-                                port=27017,
-                                username=mongo_user,
-                                password=mongo_pass,
-                                authSource='admin')
+                                 port=27017,
+                                 username=mongo_user,
+                                 password=mongo_pass,
+                                 authSource='admin')
             client.server_info() 
         except ServerSelectionTimeoutError as e:
             print(f"Error connecting to MongoDB: {e}")
@@ -27,3 +31,6 @@ class MongoConnectionHelper(ConnectionHelper):
 
         db = client[db_name]
         return db
+
+    def insert_many(self, collection, data):
+        self.__db_connection[collection].insert_many(data)

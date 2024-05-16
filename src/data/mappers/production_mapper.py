@@ -2,6 +2,7 @@ from typing import List
 from src.domain import Production
 from ..constants import *
 
+
 class ProductionMapper:
     @staticmethod
     def map(data_list: List[dict]) -> List[Production]:

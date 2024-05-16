@@ -1,14 +1,17 @@
-import os
-import json
-from typing import List
 from fastapi import HTTPException
-from src.domain.models import Production
 from src.data.mappers import ProductionMapper
+from src.domain.models import Production
+from src.services.interfaces import ProductionRepository
+from typing import List
+import json
 import logging
+import os
+
 
 logging.basicConfig(level=logging.INFO)
 
-class ProductionRepositoryImpl:
+
+class ProductionRepositoryImpl(ProductionRepository):
 
     def __init__(self, json_dir=None):
         if json_dir is None:
