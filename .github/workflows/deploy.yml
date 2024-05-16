@@ -2,39 +2,39 @@ name: CI
 
 on:
   push:
-    branches: [ github-actions ]  # Executa o workflow em commits push para a branch 'main'
+    branches: [ github-actions ]  # Runs the workflow on push commits to the 'github-actions' branch
   pull_request:
-    branches: [ github-actions ]  # Executa o workflow em pull requests para a branch 'main'
+    branches: [ github-actions ]  # Runs the workflow on pull requests to the 'github-actions' branch
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest  # Define a máquina virtual onde o job será executado
+    runs-on: ubuntu-latest  # Defines the virtual machine where the job will run
     services:
       mongo:
-        image: mongo:latest  # Utiliza a imagem mais recente do MongoDB
+        image: mongo:latest  # Uses the latest MongoDB image
         ports:
-          - 27017:27017  # Mapeia a porta padrão do MongoDB
-        options: >-
+          - 27017:27017  # Maps the default MongoDB port
+        options: >-  # Settings to check if MongoDB is healthy
           --health-cmd "mongo --eval 'db.runCommand({ping: 1})'"
           --health-interval 10s
           --health-timeout 10s
-          --health-retries 5  # Configurações para verificar se o MongoDB está saudável
+          --health-retries 5  
 
     steps:
-    - uses: actions/checkout@v2  # Faz checkout do código fonte do repositório
+    - uses: actions/checkout@v2  # Checks out the repository's source code
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.12'  # Define a versão do Python a ser utilizada
+        python-version: '3.12'  # Specifies the Python version to use
 
     - name: Build Docker image
-      run: docker-compose -f docker-compose.yml build  # Constrói a imagem Docker utilizando o docker-compose
+      run: docker-compose -f docker-compose.yml build  # Builds the Docker image using docker-compose
 
     - name: Run Docker containers
-      run: docker-compose -f docker-compose.yml up -d  # Inicia os containers em modo detached
+      run: docker-compose -f docker-compose.yml up -d  # Starts the containers in detached mode
 
     - name: Check running containers
-      run: docker-compose ps  # Lista os containers em execução para verificação
+      run: docker-compose ps  # Lists the running containers for verification
 
     - name: Shutdown
-      run: docker-compose down  # Desliga os containers e limpa o ambiente ao final dos testes
+      run: docker-compose down  # Shuts down the containers and cleans up the environment after tests
