@@ -1,6 +1,5 @@
 from src.domain.interfaces import DBPopulatorService
 from src.data.dependencies import get_database_connection
-from .helpers import read_json
 import json
 import os
 
@@ -34,11 +33,12 @@ class DBPopulatorServiceImpl(DBPopulatorService):
         for file, (collection_name, product_type) in file_mapping.items():
             file_path = os.path.join(json_directory, file)
             
-            data = read_json(file_path)
-            
-            if product_type:
-                for entry in data:
-                    entry['Produto'] = product_type
-            db[collection_name].insert_many(data)
+            with open(file_path, 'r', encoding='utf-8') as json_file:
+                data = json.load(json_file)
+                
+                if product_type:
+                    for entry in data:
+                        entry['Produto'] = product_type
+                db[collection_name].insert_many(data)
 
         print("Data loaded successfully!")
