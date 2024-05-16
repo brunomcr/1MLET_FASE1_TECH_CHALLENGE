@@ -14,7 +14,7 @@ jobs:
         image: mongo:latest  # Uses the latest MongoDB image
         ports:
           - 27017:27017  # Maps the default MongoDB port
-        options: >  # Settings to check if MongoDB is healthy
+        options: >-  # Settings to check if MongoDB is healthy
           --health-cmd "mongo --eval 'db.runCommand({ping: 1})'"
           --health-interval 10s
           --health-timeout 60s
