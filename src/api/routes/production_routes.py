@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from src.dependencies import get_production_service
+from src.services.dependencies import get_production_service
 from src.domain.responses.production.get_production_by_year_response import GetProductionByYearResponse
 import logging
 

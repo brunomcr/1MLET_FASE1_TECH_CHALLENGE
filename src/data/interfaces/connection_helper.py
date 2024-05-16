@@ -1,3 +1,3 @@
 class ConnectionHelper():
-    def connect(db_name):
+    def connect(self, db_name):
         raise NotImplementedError

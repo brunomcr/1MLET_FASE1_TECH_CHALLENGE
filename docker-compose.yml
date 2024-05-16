@@ -9,7 +9,7 @@ services:
     env_file: .env
     depends_on:
       - mongo-db
-    entrypoint: ["'uvicorn", "src.app:app", "--host", "0.0.0.0", "--port", "8000'"]
+    entrypoint: ["uvicorn", "src.app:app", "--host", "0.0.0.0", "--port", "8000"]
     networks:
       - app-network
     container_name: app_container
