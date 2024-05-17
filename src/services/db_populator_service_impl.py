@@ -14,21 +14,21 @@ class DBPopulatorServiceImpl(DBPopulatorService):
 
         # Mapping files to collections and product types
         file_mapping = {
-            'Comercio.json': ('comercio', None),
-            'Producao.json': ('producao', None),
-            'ExpEspumantes.json': ('exportacao', 'Espumantes'),
-            'ExpSuco.json': ('exportacao', 'Suco de uva'),
-            'ExpUva.json': ('exportacao', 'Uvas frescas'),
-            'ExpVinho.json': ('exportacao', 'Vinhos de mesa'),
-            'ImpEspumantes.json': ('importacao', 'Espumantes'),
-            'ImpFrescas.json': ('importacao', 'Uvas frescas'),
-            'ImpPassas.json': ('importacao', 'Uvas passas'),
-            'ImpSuco.json': ('importacao', 'Suco de uva'),
-            'ImpVinhos.json': ('importacao', 'Vinhos de mesa'),
-            'ProcessaAmericanas.json': ('processamento', 'Americanas e hibridas'),
-            'ProcessaMesa.json': ('processamento', 'Uvas de mesa'),
-            'ProcessaSemclass.json': ('processamento', 'Sem classificação'),
-            'ProcessaViniferas.json': ('processamento', 'Viniferas')
+            'Comercio.json': ('trade', None),
+            'Producao.json': ('production', None),
+            'ExpEspumantes.json': ('export', 'Espumantes'),
+            'ExpSuco.json': ('export', 'Suco de uva'),
+            'ExpUva.json': ('export', 'Uvas frescas'),
+            'ExpVinho.json': ('export', 'Vinhos de mesa'),
+            'ImpEspumantes.json': ('import', 'Espumantes'),
+            'ImpFrescas.json': ('import', 'Uvas frescas'),
+            'ImpPassas.json': ('import', 'Uvas passas'),
+            'ImpSuco.json': ('import', 'Suco de uva'),
+            'ImpVinhos.json': ('import', 'Vinhos de mesa'),
+            'ProcessaAmericanas.json': ('processing', 'Americanas e hibridas'),
+            'ProcessaMesa.json': ('processing', 'Uvas de mesa'),
+            'ProcessaSemclass.json': ('processing', 'Sem classificação'),
+            'ProcessaViniferas.json': ('processing', 'Viniferas')
         }
 
         for file, (collection_name, product_type) in file_mapping.items():
