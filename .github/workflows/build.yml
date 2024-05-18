@@ -19,13 +19,19 @@ jobs:
       with:
         python-version: '3.12'  # Specifies the Python version to use
 
+    - name: Install Docker Compose
+      run: |
+        sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+        sudo chmod +x /usr/local/bin/docker-compose
+        docker-compose --version  # Verify installation
+
     - name: Create .env file
       run: | 
           echo "MONGO_INITDB_ROOT_USERNAME=${{ secrets.MONGO_INITDB_ROOT_USERNAME }}" >> .env
           echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
 
-    - name: Build Docker image
-      run: docker-compose up -d
+    - name: Build and run Docker containers
+      run: docker-compose up -d  # Builds and starts the containers in detached mode
 
     - name: Check running containers
       run: docker-compose ps  # Lists the running containers for verification
