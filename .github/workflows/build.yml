@@ -37,8 +37,8 @@ jobs:
 
     - name: Test MongoDB connection
       run: |
-        docker run --network=app-network --rm mongo:latest mongo --host mongodb_container -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD} --eval 'db.runCommand({ connectionStatus: 1 })'
-      # Tests the connection to MongoDB
+        docker exec mongodb_container mongo --eval 'db.runCommand({ connectionStatus: 1 })' -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD}
+      # Tests the connection to MongoDB using docker exec to run the command inside the MongoDB container
 
     - name: Test application endpoint
       run: |
