@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest  # Defines the virtual machine where the job will run
 
     steps:
-    - uses: actions/checkout@v2  # Checks out the repository's source code
+    - name: Checkout code
+      uses: actions/checkout@v2  # Checks out the repository's source code
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -22,23 +24,14 @@ jobs:
           echo "MONGO_INITDB_ROOT_USERNAME=${{ secrets.MONGO_INITDB_ROOT_USERNAME }}" >> .env
           echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
 
-    - name: Verify .env file
-      run: |
-        echo ".env file contents:"
-        cat .env
-      # This step verifies the .env file content without exposing passwords
-
     - name: Build Docker image
-      run: docker-compose -f docker-compose.yml build  # Builds the Docker image using docker-compose
-
-    - name: Run Docker containers
-      run: docker-compose -f docker-compose.yml up -d  # Starts the containers in detached mode
+      run: docker-compose up -d
 
     - name: Check running containers
       run: docker-compose ps  # Lists the running containers for verification
 
     - name: Wait for services to start
-      run: sleep 60  # Waits a few seconds to ensure services are fully started
+      run: sleep 120  # Waits a few seconds to ensure services are fully started
 
     - name: List MongoDB container files
       run: docker exec mongodb_container find / -name mongo  # Finds the location of the mongo executable in the container
