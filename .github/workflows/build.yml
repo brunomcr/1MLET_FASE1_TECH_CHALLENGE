@@ -34,7 +34,7 @@ jobs:
       run: docker-compose build
 
     - name: Create-DB
-      run: docker-compose up
+      run: docker-compose up -d
 
     - name: Wait for services to start
       run: sleep 120  # Waits a few seconds to ensure services are fully started
