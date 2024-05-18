@@ -33,11 +33,11 @@ jobs:
       run: docker-compose ps  # Lists the running containers for verification
 
     - name: Wait for services to start
-      run: sleep 30  # Waits a few seconds to ensure services are fully started
+      run: sleep 60  # Waits a few seconds to ensure services are fully started
 
     - name: Test MongoDB connection
       run: |
-        docker exec mongodb_container mongo --eval 'db.runCommand({ connectionStatus: 1 })' -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD}
+        docker exec mongodb_container /usr/bin/mongo --eval 'db.runCommand({ connectionStatus: 1 })' -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD}
       # Tests the connection to MongoDB using docker exec to run the command inside the MongoDB container
 
     - name: Test application endpoint
