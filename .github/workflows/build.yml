@@ -29,13 +29,13 @@ jobs:
     - name: Run Docker containers
       run: docker-compose -f docker-compose.yml up -d  # Starts the containers in detached mode
 
-    - name: Wait for MongoDB to be ready
-      run: |
-        until docker-compose exec mongo-db mongo --eval 'db.runCommand({ ping: 1 })' &> /dev/null
-        do
-          echo "Waiting for MongoDB to be ready..."
-          sleep 1
-        done
+#    - name: Wait for MongoDB to be ready
+#      run: |
+#        until docker-compose exec mongo-db mongo --eval 'db.runCommand({ ping: 1 })' &> /dev/null
+#        do
+#          echo "Waiting for MongoDB to be ready..."
+#          sleep 1
+#        done
 
     - name: Check running containers
       run: docker-compose ps  # Lists the running containers for verification
