@@ -2,33 +2,33 @@ name: CI
 
 on:
   push:
-    branches: [ github-actions ]  # Runs the workflow on push commits to the 'github-actions' branch
+    branches: [ github-actions ]
   pull_request:
-    branches: [ github-actions ]  # Runs the workflow on pull requests to the 'github-actions' branch
+    branches: [ github-actions ]
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest  # Defines the virtual machine where the job will run
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3  # Checks out the repository's source code
+      uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.12'  # Specifies the Python version to use
+        python-version: '3.12'
 
     - name: Install Docker Compose
       run: |
         sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
         sudo chmod +x /usr/local/bin/docker-compose
-        docker-compose --version  # Verify installation
+        docker-compose --version
 
     - name: Create .env file
       run: | 
-          echo "MONGO_INITDB_ROOT_USERNAME=${{ secrets.MONGO_INITDB_ROOT_USERNAME }}" >> .env
-          echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
+        echo "MONGO_INITDB_ROOT_USERNAME=${{ secrets.MONGO_INITDB_ROOT_USERNAME }}" >> .env
+        echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
 
     - name: Build-DB
       run: docker-compose build
@@ -50,14 +50,18 @@ jobs:
         echo "Searching for mongo executable:"
         docker exec mongodb_container find / -path /proc -prune -o -name mongo -print
         MONGO_PATH=$(docker exec mongodb_container find / -path /proc -prune -o -name mongo -print | head -n 1)
+        echo "Found executable at: $MONGO_PATH"
         echo "MONGO_PATH=$MONGO_PATH" >> $GITHUB_ENV
-        echo "Mongo executable located at: $MONGO_PATH"
 
+    - name: Verify Mongo executable path
+      run: |
+        echo "Mongo executable located at: ${{ env.MONGO_PATH }}"
+        docker exec mongodb_container ls -l ${{ env.MONGO_PATH }}
 
     - name: Test MongoDB connection
       run: |
-        docker exec mongodb_container /usr/bin/mongo --eval 'db.runCommand({ connectionStatus: 1 })' -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD}
-      # Tests the connection to MongoDB using docker exec to run the command inside the MongoDB container
+        docker exec mongodb_container ${{ env.MONGO_PATH }} --eval 'db.runCommand({ connectionStatus: 1 })' -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD}
+      shell: /usr/bin/bash
 
     - name: Test application endpoint
       run: |
