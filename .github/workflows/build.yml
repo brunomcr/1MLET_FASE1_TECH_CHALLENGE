@@ -40,7 +40,7 @@ jobs:
       run: sleep 120  # Waits a few seconds to ensure services are fully started
 
     - name: List MongoDB container files
-      run: docker exec mongodb_container find / -name mongo  # Finds the location of the mongo executable in the container
+      run: docker exec mongodb_container find /usr -name mongo  # Finds the location of the mongo executable in the container
 
     - name: Test MongoDB connection
       run: |
