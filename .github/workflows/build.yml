@@ -25,7 +25,7 @@ jobs:
     - name: Verify .env file
       run: |
         echo ".env file contents:"
-        cat .env | sed 's/^\(.*PASSWORD=\).*$/\1****/g'
+        cat .env
       # This step verifies the .env file content without exposing passwords
 
     - name: Build Docker image
