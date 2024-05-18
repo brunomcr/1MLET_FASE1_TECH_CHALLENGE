@@ -42,6 +42,10 @@ jobs:
     - name: List MongoDB container files
       run: docker exec mongodb_container ls -l /  # Finds the location of the mongo executable in the container
 
+    - name: Locate Mongo executable
+      run: docker exec mongodb_container find / -path /proc -prune -o -name mongo -print
+
+
     - name: Test MongoDB connection
       run: |
         docker exec mongodb_container /usr/bin/mongo --eval 'db.runCommand({ connectionStatus: 1 })' -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD}
