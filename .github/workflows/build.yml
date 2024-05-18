@@ -33,14 +33,14 @@ jobs:
     - name: Build and run Docker containers
       run: docker-compose up -d  # Builds and starts the containers in detached mode
 
-    - name: Check running containers
-      run: docker-compose ps  # Lists the running containers for verification
-
     - name: Wait for services to start
       run: sleep 120  # Waits a few seconds to ensure services are fully started
 
+    - name: Check running containers
+      run: docker-compose ps  # Lists the running containers for verification
+
     - name: List MongoDB container files
-      run: docker exec mongodb_container find /usr -name mongo  # Finds the location of the mongo executable in the container
+      run: docker exec mongodb_container ls -l /  # Finds the location of the mongo executable in the container
 
     - name: Test MongoDB connection
       run: |
