@@ -10,7 +10,6 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest  # Defines the virtual machine where the job will run
 
-
     steps:
     - uses: actions/checkout@v2  # Checks out the repository's source code
     - name: Set up Python
@@ -22,6 +21,12 @@ jobs:
       run: | 
           echo "MONGO_INITDB_ROOT_USERNAME=${{ secrets.MONGO_INITDB_ROOT_USERNAME }}" >> .env
           echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
+
+    - name: Verify .env file
+      run: |
+        echo ".env file contents:"
+        cat .env | sed 's/^\(.*PASSWORD=\).*$/\1****/g'
+      # This step verifies the .env file content without exposing passwords
 
     - name: Build Docker image
       run: docker-compose -f docker-compose.yml build  # Builds the Docker image using docker-compose
