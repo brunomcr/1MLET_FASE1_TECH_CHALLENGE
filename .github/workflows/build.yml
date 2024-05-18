@@ -41,6 +41,6 @@ jobs:
 
     - name: Check running containers
       run: docker-compose ps  # Lists the running containers for verification
-
-    - name: Shutdown
-      run: docker-compose down  # Shuts down the containers and cleans up the environment after tests
+#
+#    - name: Shutdown
+#      run: docker-compose down  # Shuts down the containers and cleans up the environment after tests
