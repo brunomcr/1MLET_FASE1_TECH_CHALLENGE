@@ -43,8 +43,9 @@ jobs:
       run: docker exec mongodb_container ls -l /  # Finds the location of the mongo executable in the container
 
     - name: Locate Mongo executable
-      id: locate-mongo
       run: |
+        echo "Searching for mongo executable:"
+        docker exec mongodb_container find / -path /proc -prune -o -name mongo -print
         MONGO_PATH=$(docker exec mongodb_container find / -path /proc -prune -o -name mongo -print | head -n 1)
         echo "MONGO_PATH=$MONGO_PATH" >> $GITHUB_ENV
         echo "Mongo executable located at: $MONGO_PATH"
