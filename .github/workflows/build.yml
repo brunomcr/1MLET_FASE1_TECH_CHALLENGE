@@ -10,16 +10,6 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest  # Defines the virtual machine where the job will run
 
-#    services:
-#      mongo:
-#        image: mongo:latest  # Uses the latest MongoDB image
-#        ports:
-#          - 27017:27017  # Maps the default MongoDB port
-#        options: >-
-#          --health-cmd="mongo --eval 'db.runCommand({ping: 1})'"
-#          --health-interval=10s
-#          --health-timeout=60s
-#          --health-retries=10
 
     steps:
     - uses: actions/checkout@v2  # Checks out the repository's source code
@@ -39,8 +29,16 @@ jobs:
     - name: Run Docker containers
       run: docker-compose -f docker-compose.yml up -d  # Starts the containers in detached mode
 
+    - name: Wait for MongoDB to be ready
+      run: |
+        until docker-compose exec mongo-db mongo --eval 'db.runCommand({ ping: 1 })' &> /dev/null
+        do
+          echo "Waiting for MongoDB to be ready..."
+          sleep 1
+        done
+
     - name: Check running containers
       run: docker-compose ps  # Lists the running containers for verification
-#
-#    - name: Shutdown
-#      run: docker-compose down  # Shuts down the containers and cleans up the environment after tests
+
+    - name: Shutdown
+      run: docker-compose down  # Shuts down the containers and cleans up the environment after tests
