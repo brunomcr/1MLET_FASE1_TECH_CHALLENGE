@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [ github-actions ]
+  pull_request:
+    branches: [ github-actions ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Install Docker Compose
+      run: |
+        sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+        sudo chmod +x /usr/local/bin/docker-compose
+        docker-compose --version
+
+    - name: Create .env file
+      run: | 
+        echo "MONGO_INITDB_ROOT_USERNAME=${{ secrets.MONGO_INITDB_ROOT_USERNAME }}" >> .env
+        echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
+
+    - name: Build-DB
+      run: docker-compose build
+
+    - name: Create-DB
+      run: docker-compose up -d
+
+    - name: Wait for services to start
+      run: sleep 120  # Waits a few seconds to ensure services are fully started
+
+    - name: Check running containers
+      run: docker-compose ps  # Lists the running containers for verification
+
+    - name: List MongoDB container files
+      run: docker exec mongodb_container ls -l /  # Finds the location of the mongo executable in the container
+
+    - name: Locate Mongo executable
+      run: |
+        echo "Searching for mongo executable:"
+        docker exec mongodb_container find / -path /proc -prune -o -name mongo -print
+        MONGO_PATH=$(docker exec mongodb_container find / -path /proc -prune -o -name mongo -print | head -n 1)
+        echo "Found executable at: $MONGO_PATH"
+        echo "MONGO_PATH=$MONGO_PATH" >> $GITHUB_ENV
+
+    - name: Verify Mongo executable path
+      run: |
+        echo "Mongo executable located at: ${{ env.MONGO_PATH }}"
+        docker exec mongodb_container ls -l ${{ env.MONGO_PATH }}
+
+    - name: Test MongoDB connection
+      run: |
+        docker exec mongodb_container ${{ env.MONGO_PATH }} --eval 'db.runCommand({ connectionStatus: 1 })' -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD}
+      shell: /usr/bin/bash
+
+    - name: Test application endpoint
+      run: |
+        curl -f http://localhost:8000/
+      # Uses curl to access the application and check if it's responding correctly
+
+    - name: Test mongo-express
+      run: |
+        curl -f http://localhost:8081/
+      # Uses curl to access the application and check if it's responding correctly
+
+    - name: Shutdown
+      run: docker-compose down  # Shuts down the containers and cleans up the environment after tests
