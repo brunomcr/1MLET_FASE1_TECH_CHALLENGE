@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2  # Checks out the repository's source code
+      uses: actions/checkout@v3  # Checks out the repository's source code
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.12'  # Specifies the Python version to use
 
@@ -31,7 +31,7 @@ jobs:
           echo "MONGO_INITDB_ROOT_PASSWORD=${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}" >> .env
 
     - name: Build and run Docker containers
-      run: docker-compose up -d  # Builds and starts the containers in detached mode
+      run: docker-compose up --build -d  # Builds and starts the containers in detached mode
 
     - name: Wait for services to start
       run: sleep 120  # Waits a few seconds to ensure services are fully started
@@ -58,7 +58,12 @@ jobs:
 
     - name: Test application endpoint
       run: |
-        curl -f http://localhost:8000/  # Tests if the application endpoint is accessible
+        curl -f http://localhost:8000/
+      # Uses curl to access the application and check if it's responding correctly
+
+    - name: Test mongo-express
+      run: |
+        curl -f http://localhost:8081/
       # Uses curl to access the application and check if it's responding correctly
 
     - name: Shutdown
