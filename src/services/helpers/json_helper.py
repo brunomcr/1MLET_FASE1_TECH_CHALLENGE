@@ -1,3 +1,5 @@
+import os
+
 from fastapi import HTTPException
 from json import load, JSONDecodeError
 

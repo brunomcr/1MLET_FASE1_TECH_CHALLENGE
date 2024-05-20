@@ -6,8 +6,17 @@ import os
 
 
 class MongoDatabaseHelper(DatabaseHelper):
+    _instance = None
+
+    def __new__(cls, *args, **kwargs):
+        if cls._instance is None:
+            cls._instance = super(MongoDatabaseHelper, cls).__new__(cls)
+        return cls._instance
+
     def __init__(self):
-        self.__db_connection = self.connect('1mlet_embrapa')
+        if not hasattr(self, '_initialized'):  # Prevent __init__ from running more than once
+            self.__db_connection = self.connect('1mlet_embrapa')
+            self._initialized = True
 
     def connect(self, db_name):
         load_dotenv()
@@ -34,3 +43,6 @@ class MongoDatabaseHelper(DatabaseHelper):
 
     def insert_many(self, collection, data):
         self.__db_connection[collection].insert_many(data)
+
+    def find(self, collection, query):
+        return self.__db_connection[collection].find(query)
