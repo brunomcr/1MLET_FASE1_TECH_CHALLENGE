@@ -22,8 +22,8 @@ class ProductionDataRepositoryImpl(ProductionDataRepository):
     async def get_production_data_by_year(self, year: int) -> List[ProductionData]:
         try:
             logging.info(f"Querying MongoDB for year: {year}")
-
-            query_result = self.database.find({"Ano": str(year)})
+            
+            query_result = self.database.find("production", {"Ano": str(year)})
             production_list = self.mapper.map(query_result)
 
             logging.debug(f"Mapped production data: {production_list}")
