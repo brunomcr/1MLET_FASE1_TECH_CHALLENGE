@@ -1,1 +1,2 @@
+from .processing_data_repository_impl import ProcessingDataRepositoryImpl
 from .production_data_repository_impl import ProductionDataRepositoryImpl

@@ -5,7 +5,7 @@ from .interfaces import ProductionDataRepository
 from src.services.di.dependencies import injector
 
 
-class ProductionDataDataServiceImpl(ProductionDataService):
+class ProductionDataServiceImpl(ProductionDataService):
     def __init__(self):
         self.production_repository = injector.get(ProductionDataRepository)
         self.mapper = ProductionDataResponseMapper()

@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from typing import List
 
-from src.data.mappers import ProductionMapper
+from src.data.mappers import ProductionDataMapper
 from src.domain.models import ProductionData
 from src.services.interfaces import ProductionDataRepository
 from src.data.di.dependencies import injector
@@ -17,11 +17,11 @@ class ProductionDataRepositoryImpl(ProductionDataRepository):
 
     def __init__(self):
         self.database = injector.get(DatabaseHelper)
-        self.mapper = ProductionMapper()
+        self.mapper = ProductionDataMapper()
 
     async def get_production_data_by_year(self, year: int) -> List[ProductionData]:
         try:
-            logging.info(f"Querying MongoDB for year: {year}")
+            logging.info(f"Querying Production data for year: {year}")
             
             query_result = self.database.find("production", {"Ano": str(year)})
             production_list = self.mapper.map(query_result)
