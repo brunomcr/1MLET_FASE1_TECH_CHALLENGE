@@ -1,7 +1,7 @@
 from src.di import Injector
-from src.domain import ProductionService
-from src.services import ProductionServiceImpl
+from src.domain import ProductionDataService
+from src.services import ProductionDataDataServiceImpl
 
 
 injector = Injector()
-injector.register(ProductionService, ProductionServiceImpl())
+injector.register(ProductionDataService, ProductionDataDataServiceImpl())

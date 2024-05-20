@@ -1,11 +1,11 @@
 from typing import List
-from src.domain import Production
+from src.domain import ProductionData
 from ..constants import *
 
 
 class ProductionMapper:
     @staticmethod
-    def map(data_list: List[dict]) -> List[Production]:
+    def map(data_list: List[dict]) -> List[ProductionData]:
         """
         Converts a list of dictionaries to a list of Production objects.
 
@@ -13,7 +13,7 @@ class ProductionMapper:
             data_list (List[dict]): List of dictionaries containing production data.
 
         Returns:
-            List[Production]: A list of Production objects.
+            List[ProductionData]: A list of Production objects.
         """
 
         production_list = []
@@ -36,7 +36,7 @@ class ProductionMapper:
                     raise ValueError("Volume is missing")
 
                 production_list.append(
-                    Production(year=year, group=group, product=product, volume=volume)
+                    ProductionData(year=year, group=group, product=product, volume=volume)
                 )
             except (ValueError, KeyError) as e:
                 print(f"Error converting data: {e}")
