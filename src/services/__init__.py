@@ -1,4 +1,5 @@
 from .interfaces import *
 from .db_populator_service_impl import DBPopulatorServiceImpl
+from .import_data_service_impl import ImportDataServiceImpl
 from .processing_data_service_impl import ProcessingDataServiceImpl
 from .production_data_service_impl import ProductionDataServiceImpl

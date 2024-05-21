@@ -1,9 +1,11 @@
 class ImportData:
-    def __init__(self, year: int, country: str, quantity: int, value: float):
+    def __init__(self, year: int, product: str, country: str, weight: str, price: float):
         self.year = year
+        self.product = product
         self.country = country
-        self.quantity = quantity
-        self.value = value
+        self.weight = weight
+        self.price = price
 
     def __repr__(self) -> str:
-        return f"ImportData(year={self.year}, country={self.country}, quantity={self.quantity}, value={self.value})"
+        return f"ImportData(year={self.year}, product={self.product}, country={self.country}, weight={self.weight}, price={self.price})"
+
