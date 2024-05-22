@@ -1,11 +1,13 @@
-class ImportData:
-    def __init__(self, year: int, product: str, country: str, weight: str, price: float):
-        self.year = year
-        self.product = product
-        self.country = country
-        self.weight = weight
-        self.price = price
+from pydantic import BaseModel
+
+
+class ImportData(BaseModel):
+    country: str
+    type: str
+    value: str
+    weight: str
+    year: str
 
     def __repr__(self) -> str:
-        return f"ImportData(year={self.year}, product={self.product}, country={self.country}, weight={self.weight}, price={self.price})"
+        return f"ImportData(year={self.year}, type={self.type}, country={self.country}, weight={self.weight}, price={self.price})"
 

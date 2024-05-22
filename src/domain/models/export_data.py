@@ -1,9 +1,12 @@
-class ExportData:
-    def __init__(self, year: int, country: str, quantity: int, value: float):
-        self.year = year
-        self.country = country
-        self.quantity = quantity
-        self.value = value
+from pydantic import BaseModel
+
+
+class ExportData(BaseModel):
+    country: str
+    quantity: str
+    type: str
+    value: str
+    year: str
 
     def __repr__(self) -> str:
         return f"ExportData(year={self.year}, country={self.country}, quantity={self.quantity}, value={self.value})"

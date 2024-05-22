@@ -12,7 +12,9 @@ processing_data_service = injector.get(ProcessingDataService)
 processing_router = APIRouter()
 
 
-@processing_router.get("/processing/{year}", response_model=None, dependencies=[Security(JWTBearer())])
+@processing_router.get("/processing/{year}",
+                       response_model=GetProcessingDataByYearResponse,
+                       dependencies=[Security(JWTBearer())])
 async def get_processing_data_by_year(year: int) -> GetProcessingDataByYearResponse:
     try:
         return await processing_data_service.get_processing_data_by_year(year)

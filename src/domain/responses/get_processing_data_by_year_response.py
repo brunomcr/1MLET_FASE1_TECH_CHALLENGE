@@ -1,7 +1,8 @@
 from typing import List
-from src.domain.models import ProcessingData
+from pydantic import BaseModel
+
+from ..models import ProcessingData
 
 
-class GetProcessingDataByYearResponse:
-    def __init__(self, data: List[ProcessingData]):
-        self.data = data
+class GetProcessingDataByYearResponse(BaseModel):
+    data: List[ProcessingData]

@@ -11,6 +11,8 @@ logging.basicConfig(level=logging.INFO)
 export_router = APIRouter()
 
 
-@export_router.get("/export/{year}", response_model=None, dependencies=[Security(JWTBearer())])
+@export_router.get("/export/{year}",
+                   response_model=GetExportDataByYearResponse,
+                   dependencies=[Security(JWTBearer())])
 async def get_export_by_year(year: int) -> GetExportDataByYearResponse:
     pass

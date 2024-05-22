@@ -11,6 +11,8 @@ logging.basicConfig(level=logging.INFO)
 trading_router = APIRouter()
 
 
-@trading_router.get("/trading/{year}", response_model=None, dependencies=[Security(JWTBearer())])
+@trading_router.get("/trading/{year}",
+                    response_model=GetTradingDataByYearResponse,
+                    dependencies=[Security(JWTBearer())])
 async def get_trading_data_by_year(year: int) -> GetTradingDataByYearResponse:
     pass

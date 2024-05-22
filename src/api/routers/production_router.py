@@ -16,7 +16,9 @@ def get_production_data_service() -> ProductionDataService:
 production_router = APIRouter()
 
 
-@production_router.get("/production/{year}", response_model=None, dependencies=[Security(JWTBearer())])
+@production_router.get("/production/{year}",
+                       response_model=GetProductionDataByYearResponse,
+                       dependencies=[Security(JWTBearer())])
 async def get_production_data_by_year(
         year: int,
         production_data_service: ProductionDataService = Depends(get_production_data_service)
