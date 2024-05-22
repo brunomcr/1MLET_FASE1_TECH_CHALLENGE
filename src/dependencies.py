@@ -1,6 +1,6 @@
-from src.di import Injector
-from src.domain import DBPopulatorService
-from src.services import DBPopulatorServiceImpl
+from .di import Injector
+from .domain.interfaces.services import DBPopulatorService
+from .services import DBPopulatorServiceImpl
 
 
 injector = Injector()

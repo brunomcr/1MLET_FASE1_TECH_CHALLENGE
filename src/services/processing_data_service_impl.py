@@ -1,8 +1,8 @@
-from src.domain.interfaces import ProcessingDataService
-from src.domain.responses import GetProcessingDataByYearResponse
-from src.services.mappers import ProcessingDataResponseMapper
 from .interfaces import ProcessingDataRepository
-from src.services.di.dependencies import injector
+from ..domain.interfaces.services import ProcessingDataService
+from ..domain.responses import GetProcessingDataByYearResponse
+from ..services.mappers import ProcessingDataResponseMapper
+from ..services.di.dependencies import injector
 
 
 class ProcessingDataServiceImpl(ProcessingDataService):

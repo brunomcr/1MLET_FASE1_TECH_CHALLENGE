@@ -1,1 +1,1 @@
-from .mongo_database_helper import *
+from .mongo_database_helper import MongoDatabaseHelper

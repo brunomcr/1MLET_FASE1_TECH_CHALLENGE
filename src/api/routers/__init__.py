@@ -1,3 +1,4 @@
+from .authentication_router import auth_router
 from .export_router import export_router
 from .import_router import import_router
 from .processing_router import processing_router

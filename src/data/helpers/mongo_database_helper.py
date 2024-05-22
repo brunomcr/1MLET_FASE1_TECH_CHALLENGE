@@ -1,8 +1,9 @@
-from ..interfaces import DatabaseHelper
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 import os
+
+from ..interfaces import DatabaseHelper
 
 
 class MongoDatabaseHelper(DatabaseHelper):

@@ -1,6 +1,7 @@
 from typing import List
-from src.domain import ImportData
+
 from ..constants import *
+from ...domain.models import ImportData
 
 
 class ImportDataMapper:

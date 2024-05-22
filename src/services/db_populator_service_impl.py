@@ -1,8 +1,9 @@
-from .di import injector
-from src.data.interfaces import DatabaseHelper
-from src.domain.interfaces import DBPopulatorService
 import json
 import os
+
+from .di import injector
+from ..data.interfaces import DatabaseHelper
+from ..domain.interfaces.services import DBPopulatorService
 
 
 class DBPopulatorServiceImpl(DBPopulatorService):

@@ -1,8 +1,8 @@
-from src.domain.interfaces import ImportDataService
-from src.domain.responses import GetImportDataByYearResponse
-from src.services.mappers import ImportDataResponseMapper
 from .interfaces import ImportDataRepository
-from src.services.di.dependencies import injector
+from ..domain.interfaces.services import ImportDataService
+from ..domain.responses import GetImportDataByYearResponse
+from ..services.mappers import ImportDataResponseMapper
+from ..services.di.dependencies import injector
 
 
 class ImportDataServiceImpl(ImportDataService):

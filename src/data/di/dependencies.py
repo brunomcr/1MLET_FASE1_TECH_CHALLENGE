@@ -1,6 +1,6 @@
-from src.data.helpers import MongoDatabaseHelper
-from src.data.interfaces import DatabaseHelper
-from src.di import Injector
+from ...data.helpers import MongoDatabaseHelper
+from ...data.interfaces import DatabaseHelper
+from ...di import Injector
 
 injector = Injector()
 

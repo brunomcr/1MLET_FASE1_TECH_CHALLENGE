@@ -1,4 +1,5 @@
 from .db_populator_service import DBPopulatorService
 from .import_data_service import ImportDataService
+from .jwt_token_service import JWTTokenService
 from .processing_data_service import ProcessingDataService
 from .production_data_service import ProductionDataService

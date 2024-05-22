@@ -1,11 +1,11 @@
 from fastapi import HTTPException
 from typing import List
 
-from src.data.mappers import ImportDataMapper
-from src.domain.models import ImportData
-from src.services.interfaces import ImportDataRepository
-from src.data.di.dependencies import injector
-from src.data.interfaces import DatabaseHelper
+from ..di.dependencies import injector
+from ..interfaces import DatabaseHelper
+from ..mappers import ImportDataMapper
+from ...domain.models import ImportData
+from ...services.interfaces import ImportDataRepository
 
 import logging
 

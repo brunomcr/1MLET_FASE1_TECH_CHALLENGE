@@ -1,8 +1,9 @@
-from ..di import injector
-from fastapi import APIRouter, HTTPException
-from src.domain.responses import GetTradingDataByYearResponse
+from fastapi import APIRouter, HTTPException, Security
 import logging
 
+from ..di import injector
+from ...domain.responses import GetTradingDataByYearResponse
+from ...services import JWTBearer
 
 logging.basicConfig(level=logging.INFO)
 
@@ -10,6 +11,6 @@ logging.basicConfig(level=logging.INFO)
 trading_router = APIRouter()
 
 
-@trading_router.get("/trading/{year}", response_model=None)
+@trading_router.get("/trading/{year}", response_model=None, dependencies=[Security(JWTBearer())])
 async def get_trading_data_by_year(year: int) -> GetTradingDataByYearResponse:
     pass

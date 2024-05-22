@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "1MLET_FASE1_TECH_CHALLENGE",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

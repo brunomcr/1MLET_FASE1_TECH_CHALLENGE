@@ -1,8 +1,8 @@
-from src.domain.interfaces import ProductionDataService
-from src.domain.responses import GetProductionDataByYearResponse
-from src.services.mappers import ProductionDataResponseMapper
 from .interfaces import ProductionDataRepository
-from src.services.di.dependencies import injector
+from ..domain.interfaces.services import ProductionDataService
+from ..domain.responses import GetProductionDataByYearResponse
+from ..services.mappers import ProductionDataResponseMapper
+from ..services.di.dependencies import injector
 
 
 class ProductionDataServiceImpl(ProductionDataService):

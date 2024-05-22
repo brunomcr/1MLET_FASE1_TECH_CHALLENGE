@@ -1,6 +1,7 @@
 from typing import List
-from src.domain import ProductionData
+
 from ..constants import *
+from ...domain.models import ProductionData
 
 
 class ProductionDataMapper:

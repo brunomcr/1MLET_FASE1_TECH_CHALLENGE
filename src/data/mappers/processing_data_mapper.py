@@ -1,6 +1,7 @@
 from typing import List
-from src.domain import ProcessingData
+
 from ..constants import *
+from ...domain.models import ProcessingData
 
 
 class ProcessingDataMapper:

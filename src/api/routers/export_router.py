@@ -1,8 +1,9 @@
-from ..di import injector
-from fastapi import APIRouter, HTTPException
-from src.domain.responses import GetExportDataByYearResponse
+from fastapi import APIRouter, HTTPException, Security
 import logging
 
+from ..di import injector
+from ...domain.responses import GetExportDataByYearResponse
+from ...services import JWTBearer
 
 logging.basicConfig(level=logging.INFO)
 
@@ -10,6 +11,6 @@ logging.basicConfig(level=logging.INFO)
 export_router = APIRouter()
 
 
-@export_router.get("/export/{year}", response_model=None)
+@export_router.get("/export/{year}", response_model=None, dependencies=[Security(JWTBearer())])
 async def get_export_by_year(year: int) -> GetExportDataByYearResponse:
     pass

@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
-from src.domain.responses import GetProcessingDataByYearResponse
+
+from ....domain.responses import GetProcessingDataByYearResponse
 
 
 class ProcessingDataService(ABC):

@@ -1,0 +1,15 @@
+meta {
+  name: Production Data By Year
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8000/production/1997
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: 
+}
