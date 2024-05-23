@@ -3,3 +3,4 @@ from .import_data_service_impl import ImportDataServiceImpl
 from .jwt_token_service_impl import JWTTokenServiceImpl, JWTBearer
 from .processing_data_service_impl import ProcessingDataServiceImpl
 from .production_data_service_impl import ProductionDataServiceImpl
+from .trading_data_service_impl import TradingDataServiceImpl
