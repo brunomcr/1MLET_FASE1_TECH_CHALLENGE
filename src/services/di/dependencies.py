@@ -8,6 +8,7 @@ from ..interfaces import *
 injector = Injector()
 
 injector.register(DatabaseHelper, MongoDatabaseHelper())
+injector.register(ExportDataRepository, ExportDataRepositoryImpl())
 injector.register(ImportDataRepository, ImportDataRepositoryImpl())
 injector.register(ProcessingDataRepository, ProcessingDataRepositoryImpl())
 injector.register(ProductionDataRepository, ProductionDataRepositoryImpl())

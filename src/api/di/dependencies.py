@@ -4,6 +4,7 @@ from ...services import *
 
 injector = Injector()
 injector.register(ImportDataService, ImportDataServiceImpl())
+injector.register(ExportDataService, ExportDataServiceImpl())
 injector.register(JWTTokenService, JWTTokenServiceImpl())
 injector.register(ProcessingDataService, ProcessingDataServiceImpl())
 injector.register(ProductionDataService, ProductionDataServiceImpl())
