@@ -21,7 +21,7 @@ class ProductionDataRepositoryImpl(ProductionDataRepository):
     async def get_production_data_by_year(self, year: int) -> List[ProductionData]:
         try:
             logging.info(f"Querying Production data for year: {year}")
-            query_result = self.database.find("production", {COL_YEAR: str(year)})
+            query_result = self.database.find("_production", {COL_YEAR: str(year)})
             return [ProductionData(**item) for item in query_result]
         except Exception as e:
             logging.error(f"Error querying MongoDB: {e}")

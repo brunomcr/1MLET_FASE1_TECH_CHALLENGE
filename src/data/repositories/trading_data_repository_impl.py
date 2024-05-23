@@ -21,7 +21,7 @@ class TradingDataRepositoryImpl(TradingnDataRepository):
     async def get_trading_data_by_year(self, year: int) -> List[TradingData]:
         try:
             logging.info(f"Querying Trading data for year: {year}")
-            query_result = self.database.find("trade", {COL_YEAR: str(year)})
+            query_result = self.database.find("_trade", {COL_YEAR: str(year)})
             return [TradingData(**item) for item in query_result]
         except Exception as e:
             logging.error(f"Error querying MongoDB: {e}")

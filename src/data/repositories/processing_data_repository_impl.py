@@ -20,7 +20,7 @@ class ProcessingDataRepositoryImpl(ProcessingDataRepository):
     async def get_processing_data_by_year(self, year: int) -> List[ProcessingData]:
         try:
             logging.info(f"Querying Processing data for year: {year}")
-            query_result = self.database.find("processing", {COL_YEAR: str(year)})
+            query_result = self.database.find("_processing", {COL_YEAR: str(year)})
             return [ProcessingData(**item) for item in query_result]
         except Exception as e:
             logging.error(f"Error querying MongoDB: {e}")
