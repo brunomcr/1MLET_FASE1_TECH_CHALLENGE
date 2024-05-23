@@ -17,12 +17,21 @@ production_router = APIRouter()
 
 
 @production_router.get("/production/{year}",
-                       response_model=GetProductionDataByYearResponse,
-                       dependencies=[Security(JWTBearer())])
+    response_model=GetProductionDataByYearResponse,
+    dependencies=[Security(JWTBearer())],
+    summary="Get production data by year",
+    description="Retrieve data on the production of wines, juices, and estimates in Rio Grande do Sul.",
+    tags=["Production Data"]
+)
 async def get_production_data_by_year(
         year: int,
         production_data_service: ProductionDataService = Depends(get_production_data_service)
 ) -> GetProductionDataByYearResponse:
+    """
+    Fetches the production data for a specific year.
+
+    - **year**: Year for which the data is requested.
+    """
     try:
         return await production_data_service.get_production_data_by_year(year)
     except Exception as e:

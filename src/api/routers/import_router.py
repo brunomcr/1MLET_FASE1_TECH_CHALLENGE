@@ -13,9 +13,18 @@ import_router = APIRouter()
 
 
 @import_router.get("/import/{year}",
-                   response_model=GetImportDataByYearResponse,
-                   dependencies=[Security(JWTBearer())])
+    response_model=GetImportDataByYearResponse,
+    dependencies=[Security(JWTBearer())],
+    summary="Get import data by year",
+    description="Retrieve data on the import of grape derivatives.",
+    tags=["Import Data"]
+)
 async def get_import_data_by_year(year: int) -> GetImportDataByYearResponse:
+    """
+    Fetches the import data for a specific year.
+
+    - **year**: Year for which the data is requested.
+    """
     try:
         return await import_data_service.get_import_data_by_year(year)
     except Exception as e:
