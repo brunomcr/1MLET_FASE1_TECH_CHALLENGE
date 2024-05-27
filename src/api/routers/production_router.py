@@ -17,12 +17,11 @@ production_router = APIRouter()
 
 
 @production_router.get("/production/{year}",
-    response_model=GetProductionDataByYearResponse,
-    dependencies=[Security(JWTBearer())],
-    summary="Get production data by year",
-    description="Retrieve data on the production of wines, juices, and estimates in Rio Grande do Sul.",
-    tags=["Production Data"]
-)
+                       response_model=GetProductionDataByYearResponse,
+                       dependencies=[Security(JWTBearer())],
+                       summary="Get production data by year",
+                       description="Retrieve data on the production of wines, juices, and estimates in Rio Grande do Sul.",
+                       tags=["Production Data"])
 async def get_production_data_by_year(
         year: int,
         production_data_service: ProductionDataService = Depends(get_production_data_service)

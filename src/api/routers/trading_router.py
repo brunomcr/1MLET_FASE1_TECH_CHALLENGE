@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Security
+from fastapi import APIRouter, HTTPException, Security, Depends
 import logging
 
 from ..di import injector
@@ -8,18 +8,24 @@ from ...services import JWTBearer
 
 logging.basicConfig(level=logging.INFO)
 
-trading_data_service = injector.get(TradingDataService)
+
+def get_trading_data_service() -> TradingDataService:
+    return injector.get(TradingDataService)
+
+
 trading_router = APIRouter()
 
 
 @trading_router.get("/trading/{year}",
-    response_model=GetTradingDataByYearResponse,
-    dependencies=[Security(JWTBearer())],
-    summary="Get trading data by year",
-    description="Retrieve data on the commercialization of wines and derivatives in Rio Grande do Sul.",
-    tags=["Trading Data"]
-)
-async def get_trading_data_by_year(year: int) -> GetTradingDataByYearResponse:
+                    response_model=GetTradingDataByYearResponse,
+                    dependencies=[Security(JWTBearer())],
+                    summary="Get trading data by year",
+                    description="Retrieve data on the commercialization of wines and derivatives in Rio Grande do Sul.",
+                    tags=["Trading Data"])
+async def get_trading_data_by_year(
+        year: int,
+        trading_data_service: TradingDataService = Depends(get_trading_data_service)
+) -> GetTradingDataByYearResponse:
     """
     Fetches the trading data for a specific year.
 

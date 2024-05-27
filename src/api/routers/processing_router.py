@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Security
+from fastapi import APIRouter, HTTPException, Security, Depends
 import logging
 
 from ..di import injector
@@ -8,18 +8,24 @@ from ...services import JWTBearer
 
 logging.basicConfig(level=logging.INFO)
 
-processing_data_service = injector.get(ProcessingDataService)
+
+def get_processing_data_service() -> ProcessingDataService:
+    return injector.get(ProcessingDataService)
+
+
 processing_router = APIRouter()
 
 
 @processing_router.get("/processing/{year}",
-    response_model=GetProcessingDataByYearResponse,
-    dependencies=[Security(JWTBearer())],
-    summary="Get processing data by year",
-    description="Retrieve data on the quantity of grapes processed in Rio Grande do Sul.",
-    tags=["Processing Data"]
-)
-async def get_processing_data_by_year(year: int) -> GetProcessingDataByYearResponse:
+                       response_model=GetProcessingDataByYearResponse,
+                       dependencies=[Security(JWTBearer())],
+                       summary="Get processing data by year",
+                       description="Retrieve data on the quantity of grapes processed in Rio Grande do Sul.",
+                       tags=["Processing Data"])
+async def get_processing_data_by_year(
+        year: int,
+        processing_data_service: ProcessingDataService = Depends(get_processing_data_service)
+) -> GetProcessingDataByYearResponse:
     """
     Fetches the processing data for a specific year.
 
