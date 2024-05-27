@@ -19,19 +19,19 @@
     },
     {
         "Ano": "1970",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "435.354"
     },
     {
         "Ano": "1970",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "183.234"
     },
     {
         "Ano": "1970",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "3.812.041"
     },
@@ -75,6 +75,12 @@
         "Ano": "1970",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -331,19 +337,19 @@
     },
     {
         "Ano": "1971",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "428.927"
     },
     {
         "Ano": "1971",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "227.299"
     },
     {
         "Ano": "1971",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.184.143"
     },
@@ -387,6 +393,12 @@
         "Ano": "1971",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -643,19 +655,19 @@
     },
     {
         "Ano": "1972",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "624.499"
     },
     {
         "Ano": "1972",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "403.664"
     },
     {
         "Ano": "1972",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.573.928"
     },
@@ -699,6 +711,12 @@
         "Ano": "1972",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -955,19 +973,19 @@
     },
     {
         "Ano": "1973",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "783.508"
     },
     {
         "Ano": "1973",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.377.333"
     },
     {
         "Ano": "1973",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "5.041.989"
     },
@@ -1011,6 +1029,12 @@
         "Ano": "1973",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -1267,19 +1291,19 @@
     },
     {
         "Ano": "1974",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "1.616.144"
     },
     {
         "Ano": "1974",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.725.564"
     },
     {
         "Ano": "1974",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.230.094"
     },
@@ -1323,6 +1347,12 @@
         "Ano": "1974",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -1579,19 +1609,19 @@
     },
     {
         "Ano": "1975",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "2.050.960"
     },
     {
         "Ano": "1975",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "2.130.619"
     },
     {
         "Ano": "1975",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.666.724"
     },
@@ -1635,6 +1665,12 @@
         "Ano": "1975",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -1891,19 +1927,19 @@
     },
     {
         "Ano": "1976",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "4.450.570"
     },
     {
         "Ano": "1976",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.118.919"
     },
     {
         "Ano": "1976",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "6.526.159"
     },
@@ -1947,6 +1983,12 @@
         "Ano": "1976",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -2203,19 +2245,19 @@
     },
     {
         "Ano": "1977",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "4.504.303"
     },
     {
         "Ano": "1977",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.248.565"
     },
     {
         "Ano": "1977",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "7.222.462"
     },
@@ -2259,6 +2301,12 @@
         "Ano": "1977",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -2515,19 +2563,19 @@
     },
     {
         "Ano": "1978",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "4.920.802"
     },
     {
         "Ano": "1978",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.501.895"
     },
     {
         "Ano": "1978",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "9.174.259"
     },
@@ -2571,6 +2619,12 @@
         "Ano": "1978",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -2827,19 +2881,19 @@
     },
     {
         "Ano": "1979",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "6.360.276"
     },
     {
         "Ano": "1979",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "4.119.615"
     },
     {
         "Ano": "1979",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "11.215.938"
     },
@@ -2883,6 +2937,12 @@
         "Ano": "1979",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -3139,19 +3199,19 @@
     },
     {
         "Ano": "1980",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "7.244.385"
     },
     {
         "Ano": "1980",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "5.096.819"
     },
     {
         "Ano": "1980",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "10.635.138"
     },
@@ -3195,6 +3255,12 @@
         "Ano": "1980",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -3451,19 +3517,19 @@
     },
     {
         "Ano": "1981",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "7.403.644"
     },
     {
         "Ano": "1981",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "2.738.962"
     },
     {
         "Ano": "1981",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "11.465.251"
     },
@@ -3507,6 +3573,12 @@
         "Ano": "1981",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -3763,19 +3835,19 @@
     },
     {
         "Ano": "1982",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "7.699.010"
     },
     {
         "Ano": "1982",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.608.877"
     },
     {
         "Ano": "1982",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "14.995.041"
     },
@@ -3819,6 +3891,12 @@
         "Ano": "1982",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -4075,19 +4153,19 @@
     },
     {
         "Ano": "1983",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "9.811.525"
     },
     {
         "Ano": "1983",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.548.807"
     },
     {
         "Ano": "1983",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "19.329.787"
     },
@@ -4131,6 +4209,12 @@
         "Ano": "1983",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -4387,19 +4471,19 @@
     },
     {
         "Ano": "1984",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "14.797.285"
     },
     {
         "Ano": "1984",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.714.334"
     },
     {
         "Ano": "1984",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "23.652.774"
     },
@@ -4443,6 +4527,12 @@
         "Ano": "1984",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -4699,19 +4789,19 @@
     },
     {
         "Ano": "1985",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "13.133.683"
     },
     {
         "Ano": "1985",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.510.330"
     },
     {
         "Ano": "1985",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "27.955.194"
     },
@@ -4755,6 +4845,12 @@
         "Ano": "1985",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -5011,19 +5107,19 @@
     },
     {
         "Ano": "1986",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.664.511"
     },
     {
         "Ano": "1986",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "3.685.709"
     },
     {
         "Ano": "1986",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "31.531.559"
     },
@@ -5067,6 +5163,12 @@
         "Ano": "1986",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -5323,19 +5425,19 @@
     },
     {
         "Ano": "1987",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "10.144.561"
     },
     {
         "Ano": "1987",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "2.328.264"
     },
     {
         "Ano": "1987",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "21.863.035"
     },
@@ -5379,6 +5481,12 @@
         "Ano": "1987",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -5635,19 +5743,19 @@
     },
     {
         "Ano": "1988",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "11.713.661"
     },
     {
         "Ano": "1988",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.939.881"
     },
     {
         "Ano": "1988",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "26.360.844"
     },
@@ -5691,6 +5799,12 @@
         "Ano": "1988",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -5947,19 +6061,19 @@
     },
     {
         "Ano": "1989",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "14.737.896"
     },
     {
         "Ano": "1989",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "2.596.587"
     },
     {
         "Ano": "1989",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "33.055.779"
     },
@@ -6003,6 +6117,12 @@
         "Ano": "1989",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -6259,19 +6379,19 @@
     },
     {
         "Ano": "1990",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "11.141.857"
     },
     {
         "Ano": "1990",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.583.368"
     },
     {
         "Ano": "1990",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "27.160.034"
     },
@@ -6315,6 +6435,12 @@
         "Ano": "1990",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -6571,19 +6697,19 @@
     },
     {
         "Ano": "1991",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "9.015.204"
     },
     {
         "Ano": "1991",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.342.140"
     },
     {
         "Ano": "1991",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "27.168.767"
     },
@@ -6627,6 +6753,12 @@
         "Ano": "1991",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -6883,19 +7015,19 @@
     },
     {
         "Ano": "1992",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "10.712.402"
     },
     {
         "Ano": "1992",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.130.509"
     },
     {
         "Ano": "1992",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "27.694.149"
     },
@@ -6939,6 +7071,12 @@
         "Ano": "1992",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -7195,19 +7333,19 @@
     },
     {
         "Ano": "1993",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "11.988.665"
     },
     {
         "Ano": "1993",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.639.949"
     },
     {
         "Ano": "1993",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "36.287.498"
     },
@@ -7251,6 +7389,12 @@
         "Ano": "1993",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -7507,19 +7651,19 @@
     },
     {
         "Ano": "1994",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "13.290.842"
     },
     {
         "Ano": "1994",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.631.454"
     },
     {
         "Ano": "1994",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "31.619.622"
     },
@@ -7563,6 +7707,12 @@
         "Ano": "1994",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -7819,19 +7969,19 @@
     },
     {
         "Ano": "1995",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "12.299.213"
     },
     {
         "Ano": "1995",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.540.910"
     },
     {
         "Ano": "1995",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "26.355.378"
     },
@@ -7875,6 +8025,12 @@
         "Ano": "1995",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -8131,19 +8287,19 @@
     },
     {
         "Ano": "1996",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "13.540.528"
     },
     {
         "Ano": "1996",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.457.704"
     },
     {
         "Ano": "1996",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "28.697.539"
     },
@@ -8187,6 +8343,12 @@
         "Ano": "1996",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -8443,19 +8605,19 @@
     },
     {
         "Ano": "1997",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "18.303.579"
     },
     {
         "Ano": "1997",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.997.373"
     },
     {
         "Ano": "1997",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "26.141.257"
     },
@@ -8499,6 +8661,12 @@
         "Ano": "1997",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -8755,19 +8923,19 @@
     },
     {
         "Ano": "1998",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "11.925.188"
     },
     {
         "Ano": "1998",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.585.687"
     },
     {
         "Ano": "1998",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "18.945.443"
     },
@@ -8811,6 +8979,12 @@
         "Ano": "1998",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -9067,19 +9241,19 @@
     },
     {
         "Ano": "1999",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "14.706.398"
     },
     {
         "Ano": "1999",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.479.987"
     },
     {
         "Ano": "1999",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "20.910.186"
     },
@@ -9123,6 +9297,12 @@
         "Ano": "1999",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -9379,19 +9559,19 @@
     },
     {
         "Ano": "2000",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.119.076"
     },
     {
         "Ano": "2000",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.021.310"
     },
     {
         "Ano": "2000",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "18.055.443"
     },
@@ -9435,6 +9615,12 @@
         "Ano": "2000",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -9691,19 +9877,19 @@
     },
     {
         "Ano": "2001",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "12.112.495"
     },
     {
         "Ano": "2001",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "790.176"
     },
     {
         "Ano": "2001",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "15.798.987"
     },
@@ -9747,6 +9933,12 @@
         "Ano": "2001",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -10003,19 +10195,19 @@
     },
     {
         "Ano": "2002",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "12.109.658"
     },
     {
         "Ano": "2002",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "650.263"
     },
     {
         "Ano": "2002",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "12.678.829"
     },
@@ -10059,6 +10251,12 @@
         "Ano": "2002",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -10315,19 +10513,19 @@
     },
     {
         "Ano": "2003",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "12.559.693"
     },
     {
         "Ano": "2003",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "579.724"
     },
     {
         "Ano": "2003",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "10.153.754"
     },
@@ -10371,6 +10569,12 @@
         "Ano": "2003",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -10627,19 +10831,19 @@
     },
     {
         "Ano": "2004",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "10.859.722"
     },
     {
         "Ano": "2004",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "390.371"
     },
     {
         "Ano": "2004",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "8.634.273"
     },
@@ -10683,6 +10887,12 @@
         "Ano": "2004",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -10939,19 +11149,19 @@
     },
     {
         "Ano": "2005",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "13.335.767"
     },
     {
         "Ano": "2005",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "472.971"
     },
     {
         "Ano": "2005",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "8.497.266"
     },
@@ -10995,6 +11205,12 @@
         "Ano": "2005",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -11251,19 +11467,19 @@
     },
     {
         "Ano": "2006",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "13.920.655"
     },
     {
         "Ano": "2006",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "307.189"
     },
     {
         "Ano": "2006",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "8.539.514"
     },
@@ -11307,6 +11523,12 @@
         "Ano": "2006",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -11563,19 +11785,19 @@
     },
     {
         "Ano": "2007",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "13.872.339"
     },
     {
         "Ano": "2007",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "416.285"
     },
     {
         "Ano": "2007",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "7.197.075"
     },
@@ -11619,6 +11841,12 @@
         "Ano": "2007",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -11875,19 +12103,19 @@
     },
     {
         "Ano": "2008",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "13.920.224"
     },
     {
         "Ano": "2008",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "313.513"
     },
     {
         "Ano": "2008",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "8.934.001"
     },
@@ -11931,6 +12159,12 @@
         "Ano": "2008",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -12187,19 +12421,19 @@
     },
     {
         "Ano": "2009",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "19.576.295"
     },
     {
         "Ano": "2009",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "213.835"
     },
     {
         "Ano": "2009",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "13.290.140"
     },
@@ -12243,6 +12477,12 @@
         "Ano": "2009",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -12499,19 +12739,19 @@
     },
     {
         "Ano": "2010",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.184.398"
     },
     {
         "Ano": "2010",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "236.802"
     },
     {
         "Ano": "2010",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "5.968.959"
     },
@@ -12555,6 +12795,12 @@
         "Ano": "2010",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -12811,19 +13057,19 @@
     },
     {
         "Ano": "2011",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "14.876.896"
     },
     {
         "Ano": "2011",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "211.484"
     },
     {
         "Ano": "2011",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.878.930"
     },
@@ -12867,6 +13113,12 @@
         "Ano": "2011",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -13123,19 +13375,19 @@
     },
     {
         "Ano": "2012",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.443.016"
     },
     {
         "Ano": "2012",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "150.806"
     },
     {
         "Ano": "2012",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "6.876.128"
     },
@@ -13179,6 +13431,12 @@
         "Ano": "2012",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -13435,19 +13693,19 @@
     },
     {
         "Ano": "2013",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "19.121.750"
     },
     {
         "Ano": "2013",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "214.269"
     },
     {
         "Ano": "2013",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "8.576.915"
     },
@@ -13491,6 +13749,12 @@
         "Ano": "2013",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -13747,19 +14011,19 @@
     },
     {
         "Ano": "2014",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.354.938"
     },
     {
         "Ano": "2014",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "164.219"
     },
     {
         "Ano": "2014",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.905.826"
     },
@@ -13803,6 +14067,12 @@
         "Ano": "2014",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -14059,19 +14329,19 @@
     },
     {
         "Ano": "2015",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.572.632"
     },
     {
         "Ano": "2015",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "169.185"
     },
     {
         "Ano": "2015",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.399.814"
     },
@@ -14115,6 +14385,12 @@
         "Ano": "2015",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -14371,19 +14647,19 @@
     },
     {
         "Ano": "2016",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.228.514"
     },
     {
         "Ano": "2016",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "172.351"
     },
     {
         "Ano": "2016",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.229.293"
     },
@@ -14427,6 +14703,12 @@
         "Ano": "2016",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -14683,19 +14965,19 @@
     },
     {
         "Ano": "2017",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "12.021.684"
     },
     {
         "Ano": "2017",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "182.080"
     },
     {
         "Ano": "2017",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "3.670.590"
     },
@@ -14739,6 +15021,12 @@
         "Ano": "2017",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -14995,19 +15283,19 @@
     },
     {
         "Ano": "2018",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "11.150.517"
     },
     {
         "Ano": "2018",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "262.430"
     },
     {
         "Ano": "2018",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "3.413.196"
     },
@@ -15051,6 +15339,12 @@
         "Ano": "2018",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
+        "QuantidadeL": "0"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
         "QuantidadeL": "0"
     },
     {
@@ -15307,19 +15601,19 @@
     },
     {
         "Ano": "2019",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "11.433.702"
     },
     {
         "Ano": "2019",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "503.524"
     },
     {
         "Ano": "2019",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "3.747.362"
     },
@@ -15364,6 +15658,12 @@
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
         "QuantidadeL": "131.628.685"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
+        "QuantidadeL": "0"
     },
     {
         "Ano": "2019",
@@ -15619,19 +15919,19 @@
     },
     {
         "Ano": "2020",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "18.202.453"
     },
     {
         "Ano": "2020",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "993.248"
     },
     {
         "Ano": "2020",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "5.115.133"
     },
@@ -15676,6 +15976,12 @@
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
         "QuantidadeL": "114.453.657"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
+        "QuantidadeL": "0"
     },
     {
         "Ano": "2020",
@@ -15931,19 +16237,19 @@
     },
     {
         "Ano": "2021",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "19.337.862"
     },
     {
         "Ano": "2021",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.603.537"
     },
     {
         "Ano": "2021",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "6.139.046"
     },
@@ -15988,6 +16294,12 @@
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
         "QuantidadeL": "115.173.833"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
+        "QuantidadeL": "0"
     },
     {
         "Ano": "2021",
@@ -16243,19 +16555,19 @@
     },
     {
         "Ano": "2022",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
         "QuantidadeL": "15.258.778"
     },
     {
         "Ano": "2022",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
         "QuantidadeL": "1.318.396"
     },
     {
         "Ano": "2022",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
         "QuantidadeL": "4.956.314"
     },
@@ -16300,6 +16612,12 @@
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
         "QuantidadeL": "115.394.795"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
+        "QuantidadeL": "0"
     },
     {
         "Ano": "2022",
@@ -16539,37 +16857,37 @@
         "Ano": "2023",
         "Grupo": "VINHO DE MESA",
         "Produto": "Tinto",
-        "QuantidadeL": "0"
+        "QuantidadeL": "165.097.539"
     },
     {
         "Ano": "2023",
         "Grupo": "VINHO DE MESA",
         "Produto": "Rosado",
-        "QuantidadeL": "0"
+        "QuantidadeL": "2.520.748"
     },
     {
         "Ano": "2023",
         "Grupo": "VINHO DE MESA",
         "Produto": "Branco",
-        "QuantidadeL": "0"
+        "QuantidadeL": "19.398.561"
     },
     {
         "Ano": "2023",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Tinto",
-        "QuantidadeL": "0"
+        "QuantidadeL": "12.450.606"
     },
     {
         "Ano": "2023",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Rosado",
-        "QuantidadeL": "0"
+        "QuantidadeL": "1.214.583"
     },
     {
         "Ano": "2023",
-        "Grupo": "VINHO  FINO DE MESA",
+        "Grupo": "VINHO FINO DE MESA",
         "Produto": "Branco",
-        "QuantidadeL": "0"
+        "QuantidadeL": "4.924.121"
     },
     {
         "Ano": "2023",
@@ -16593,49 +16911,55 @@
         "Ano": "2023",
         "Grupo": "ESPUMANTES",
         "Produto": "Espumante  Moscatel",
-        "QuantidadeL": "0"
+        "QuantidadeL": "9.771.698"
     },
     {
         "Ano": "2023",
         "Grupo": "ESPUMANTES",
         "Produto": "Espumante",
-        "QuantidadeL": "0"
+        "QuantidadeL": "19.609.379"
     },
     {
         "Ano": "2023",
         "Grupo": "ESPUMANTES",
         "Produto": "Espumante Orgânico",
-        "QuantidadeL": "0"
+        "QuantidadeL": "558"
     },
     {
         "Ano": "2023",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Natural Integral",
-        "QuantidadeL": "0"
+        "QuantidadeL": "129.419.407"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "SUCO DE UVAS",
+        "Produto": "Suco Adoçado",
+        "QuantidadeL": "128.599"
     },
     {
         "Ano": "2023",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Reprocessado/reconstituido",
-        "QuantidadeL": "0"
+        "QuantidadeL": "34.402.925"
     },
     {
         "Ano": "2023",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Suco Orgânico",
-        "QuantidadeL": "0"
+        "QuantidadeL": "932.154"
     },
     {
         "Ano": "2023",
         "Grupo": "SUCO DE UVAS",
         "Produto": "Outros sucos de uvas",
-        "QuantidadeL": "0"
+        "QuantidadeL": "1.825.635"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Outros vinhos (sem informação detalhada)",
-        "QuantidadeL": "0"
+        "QuantidadeL": "8.152"
     },
     {
         "Ano": "2023",
@@ -16647,7 +16971,7 @@
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Aguardente de vinho 50°gl",
-        "QuantidadeL": "0"
+        "QuantidadeL": "111"
     },
     {
         "Ano": "2023",
@@ -16665,79 +16989,79 @@
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Base champenoise champanha",
-        "QuantidadeL": "0"
+        "QuantidadeL": "66.290"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Base charmat champanha",
-        "QuantidadeL": "0"
+        "QuantidadeL": "184.040"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Base espumante moscatel",
-        "QuantidadeL": "0"
+        "QuantidadeL": "722.984"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Bebida de uva",
-        "QuantidadeL": "0"
+        "QuantidadeL": "16.780"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Borra líquida",
-        "QuantidadeL": "0"
+        "QuantidadeL": "72.600"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Borra seca",
-        "QuantidadeL": "0"
+        "QuantidadeL": "53.220"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Brandy (conhaque)",
-        "QuantidadeL": "0"
+        "QuantidadeL": "4.506"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Cooler",
-        "QuantidadeL": "0"
+        "QuantidadeL": "4.321.881"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Coquetel com vinho",
-        "QuantidadeL": "0"
+        "QuantidadeL": "397.156"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Destilado de vinho",
-        "QuantidadeL": "0"
+        "QuantidadeL": "245"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Filtrado doce",
-        "QuantidadeL": "0"
+        "QuantidadeL": "2.366.601"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Jeropiga",
-        "QuantidadeL": "0"
+        "QuantidadeL": "346"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Mistelas",
-        "QuantidadeL": "0"
+        "QuantidadeL": "1.668"
     },
     {
         "Ano": "2023",
@@ -16749,7 +17073,7 @@
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Mosto de uva",
-        "QuantidadeL": "0"
+        "QuantidadeL": "359.626"
     },
     {
         "Ano": "2023",
@@ -16761,61 +17085,61 @@
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Nectar de uva",
-        "QuantidadeL": "0"
+        "QuantidadeL": "3.604.413"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Outros produtos",
-        "QuantidadeL": "0"
+        "QuantidadeL": "7.459.271"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Polpa de uva",
-        "QuantidadeL": "0"
+        "QuantidadeL": "1.331.651"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Preparado líquido para refresco",
-        "QuantidadeL": "0"
+        "QuantidadeL": "17.178"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Refrigerante +50% suco",
-        "QuantidadeL": "0"
+        "QuantidadeL": "501.876"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Sangria",
-        "QuantidadeL": "0"
+        "QuantidadeL": "84.157"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinagre balsamico",
-        "QuantidadeL": "0"
+        "QuantidadeL": "338.926"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinagre duplo",
-        "QuantidadeL": "0"
+        "QuantidadeL": "1.769.130"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinagre simples",
-        "QuantidadeL": "0"
+        "QuantidadeL": "5.047.280"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinho acetificado",
-        "QuantidadeL": "0"
+        "QuantidadeL": "194.020"
     },
     {
         "Ano": "2023",
@@ -16827,24 +17151,24 @@
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinho composto",
-        "QuantidadeL": "0"
+        "QuantidadeL": "981"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinho licoroso",
-        "QuantidadeL": "0"
+        "QuantidadeL": "421.974"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinho leve",
-        "QuantidadeL": "0"
+        "QuantidadeL": "132.064"
     },
     {
         "Ano": "2023",
         "Grupo": "OUTROS PRODUTOS COMERCIALIZADOS",
         "Produto": "Vinho gaseificado",
-        "QuantidadeL": "0"
+        "QuantidadeL": "410.215"
     }
 ]
