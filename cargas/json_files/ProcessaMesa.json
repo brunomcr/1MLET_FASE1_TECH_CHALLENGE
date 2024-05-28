@@ -1,0 +1,2594 @@
+[
+    {
+        "Ano": "1970",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "31.878"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "25.098"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "167"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "3.733"
+    },
+    {
+        "Ano": "1970",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "2.333"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "41.057"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "8.654"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "7.681"
+    },
+    {
+        "Ano": "1971",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "170"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "4.258"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "657"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "4.027"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "2.145"
+    },
+    {
+        "Ano": "1972",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "7.690"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "1.249"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "7.312"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "740"
+    },
+    {
+        "Ano": "1973",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "124.762"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "801"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "8.467"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "1.695"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "268.789"
+    },
+    {
+        "Ano": "1974",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "74.293"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "109.438"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "6.805"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "1.223"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "579.717"
+    },
+    {
+        "Ano": "1975",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "23.684"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "64.828"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "1.406"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "152.039"
+    },
+    {
+        "Ano": "1976",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "24.430"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "89.161"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "2.391"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "227.941"
+    },
+    {
+        "Ano": "1977",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "17.339"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "90.655"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "8.715"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "235.436"
+    },
+    {
+        "Ano": "1978",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "88.822"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "72.067"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "2.051"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "11.377"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "134.574"
+    },
+    {
+        "Ano": "1979",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "23.451"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "45.312"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "2.235"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "2.765"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "10.722"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "59.022"
+    },
+    {
+        "Ano": "1980",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "12.094"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "43.680"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "14.467"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "36.849"
+    },
+    {
+        "Ano": "1981",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "7.662"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "20.248"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "13.971"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "39.189"
+    },
+    {
+        "Ano": "1982",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "2.989"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "5.165"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "4.948"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "14.126"
+    },
+    {
+        "Ano": "1983",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "4.380"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "1.590"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "1.545"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "10.735"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "1.945"
+    },
+    {
+        "Ano": "1984",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "17.553"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "4.921"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "10.548"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "5.877"
+    },
+    {
+        "Ano": "1985",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "5.147"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "2.205"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "3.358"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "10.753"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "18.855"
+    },
+    {
+        "Ano": "1986",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "12.670"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "1.321"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "64.694"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "4.112"
+    },
+    {
+        "Ano": "1987",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1988",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1989",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1990",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1991",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1992",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1993",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1994",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1995",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1996",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1997",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1998",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "1999",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "13.877"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "20.515"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "581.598"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2000",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "3.613"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "20.047"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "23.661"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "94.352"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2001",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "23.239"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "42.357"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "58.566"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2002",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "7.366"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "75.480"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "61.178"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2003",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "49.698"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "6.172"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "33.155"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "33.860"
+    },
+    {
+        "Ano": "2004",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "1.500"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "48.320"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "1.620"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "32.105"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "1.630"
+    },
+    {
+        "Ano": "2005",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "4.115"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "36.105"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "14.569"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "3.320"
+    },
+    {
+        "Ano": "2006",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "66.970"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "25.899"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "5.130"
+    },
+    {
+        "Ano": "2007",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "5.590"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "101.101"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "4.610"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "37.376"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "2.300"
+    },
+    {
+        "Ano": "2008",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "11.011"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "84.397"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "11.335"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2009",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "3.105"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "31.771"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "10.375"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2010",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "1.200"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "89.305"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "5.575"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2011",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "13.883"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "145.132"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "9.695"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2012",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "52.869"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "75.362"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "3.378"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2013",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "1.034"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "65.850"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "850"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2014",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "29.750"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "108.797"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "3.280"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2015",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "61.260"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "51.310"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "290"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2016",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "2.970"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "85.510"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "180"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2017",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "5.720"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "62.567"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "730"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2018",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2019",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "nd"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "63.474"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2020",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "45.610"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "21.732"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "1.710"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2021",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "51.050"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2022",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "*"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "TINTAS",
+        "Cultivar": "Alphonse Lavallee",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "TINTAS",
+        "Cultivar": "Moscato de Hamburgo",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Cardinal",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Golden Queen",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Patrícia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Perlona",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Italia",
+        "QuantidadeKg": "0"
+    },
+    {
+        "Ano": "2023",
+        "Grupo": "BRANCAS",
+        "Cultivar": "Rubi (Itália, Itália Ro)",
+        "QuantidadeKg": "0"
+    }
+]
