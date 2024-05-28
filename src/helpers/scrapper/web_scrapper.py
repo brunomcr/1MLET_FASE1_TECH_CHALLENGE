@@ -6,23 +6,24 @@ import os
 # URL base
 base_url = 'http://vitibrasil.cnpuv.embrapa.br/index.php'
 
-# Json files directory
-json_files_dir = 'res/json/'
-if not os.path.exists(json_files_dir):
-    os.mkdir(json_files_dir)
-
 
 def get_data(opt, subopt, file_name, start_year, end_year):
     """
-    Extrai dados da Embrapa nas opções e subopções especificadas, e salva os dados em formato JSON.
+    Extracts data from Embrapa based on the specified options and sub-options, and saves the data in JSON format.
 
     Args:
-        opt (str): Opção principal de filtragem de dados.
-        subopt (str): Subopção de filtragem de dados, que complementa a opção principal.
-        file_name (str): Nome do arquivo onde os dados processados serão salvos.
-        start_year (int): Ano inicial do intervalo para extração de dados.
-        end_year (int): Ano final do intervalo para extração de dados.
+        opt (str): Main data filtering option.
+        subopt (str): Sub-option for data filtering, complementing the main option.
+        file_name (str): Name of the file where the processed data will be saved.
+        start_year (int): Starting year of the data extraction range.
+        end_year (int): Ending year of the data extraction range.
     """
+
+    # Json files directory
+    json_files_dir = os.path.abspath('res/json/')
+    if not os.path.exists(json_files_dir):
+        os.mkdir(json_files_dir)
+
     if opt == 'opt_05' and subopt in ('subopt_01', 'subopt_02', 'subopt_03', 'subopt_04', 'subopt_05') \
     or opt == 'opt_06' and subopt in ('subopt_01', 'subopt_02', 'subopt_03', 'subopt_04'): 
         opt_subopt_files = {
@@ -58,7 +59,8 @@ def get_data(opt, subopt, file_name, start_year, end_year):
                         if data_lines["Pais"]:
                             all_data.append(data_lines)
             
-            with open(json_files_dir + files, 'w', encoding='utf-8') as json_file:
+            file_path = os.path.join(json_files_dir, files)
+            with open(file_path, 'w', encoding='utf-8') as json_file:
                 json.dump(all_data, json_file, ensure_ascii=False, indent=4)
 
             print(f"{files} file was created successfully!")
@@ -100,8 +102,7 @@ def get_data(opt, subopt, file_name, start_year, end_year):
                         }
                         all_data.append(dados)
 
-        # Converter a lista de dicionários em JSON e escrever no arquivo específico
-        file_path = json_files_dir + file_name
+        file_path = os.path.join(json_files_dir, file_name)
         with open(file_path, 'w', encoding='utf-8') as json_file:
             json.dump(all_data, json_file, ensure_ascii=False, indent=4)
 
@@ -148,7 +149,7 @@ def get_data(opt, subopt, file_name, start_year, end_year):
                             }
                             all_data.append(dados)
 
-            file_path = json_files_dir + files
+            file_path = os.path.join(json_files_dir, files)
             with open(file_path, 'w', encoding='utf-8') as json_file:
                 json.dump(all_data, json_file, ensure_ascii=False, indent=4)
 
@@ -186,7 +187,7 @@ def get_data(opt, subopt, file_name, start_year, end_year):
                         all_data.append(dados)
 
 
-        file_path = json_files_dir + file_name
+        file_path = os.path.join(json_files_dir, file_name)
         with open(file_path, 'w', encoding='utf-8') as json_file:
             json.dump(all_data, json_file, ensure_ascii=False, indent=4)
 

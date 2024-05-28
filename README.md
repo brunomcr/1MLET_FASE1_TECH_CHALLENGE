@@ -54,7 +54,15 @@ JWT_TOKEN_EXPIRE_MINUTES=15
 ```bash
 docker-compose up --build -d
 ```
+
 ## Populating the Database
+
+First you have to scrap the Embrapa website data by running the following command: 
+```bash
+python -m src.helpers.scrapper.async_web_scrapper
+```
+
+Alternatively you can uncomment the web-scrapping portion from `app.py`.
 
 The database is populated automatically when the application starts for the first time.
 
