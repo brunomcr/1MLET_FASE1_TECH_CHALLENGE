@@ -1,3 +1,8 @@
 fastapi==0.111.0
 uvicorn==0.29.0
+pyJWT==2.8.0
 pymongo==4.7.2
+python-dotenv==1.0.1
+pydantic==2.7.1
+requests==2.32.2
+bs4==0.0.2
